@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Poem 4 (J 241: 1861/1890)</title>
+            <title>Poem 10 (J 608: 1862/1890)</title>
             <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@
             <msDesc>
                <msIdentifier>
                   <repository></repository>
-                  <idno>1604</idno></msIdentifier>
+                  <idno>1610</idno></msIdentifier>
             </msDesc>
             <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
             </bibl>
@@ -25,23 +25,32 @@
    </teiHeader>
    <text>
       <body>
-         <head><title>Poem 4 (J 241: 1861/1890)</title></head>
+         <head><title>Poem 10 (J 608: 1862/1890)</title></head>
          <lg>
-            <l>I like a look of Agony,</l>
-            <l>Because I know it's true--</l>
-            <l>Men do not sham Convulsion,</l>
-            <l>Nor simulate a Throe--</l>
+            <l>Afraid! Of whom am I afraid?</l>
+            <l>Not death--for who is He?</l>
+            <l>The Porter of my father's Lodge</l>
+            <l>As much abasheth me!</l>
          </lg>
          <lg>
-            <l>
-               <app>
-                  <rdg wit="var0"><del rend="strikethrough">Death comes</del></rdg>
+            <l>Of Life? "Twere odd fear thing</l>
+            <l>That comprehendeth me</l>
+            <l>In one or <app>
+                  <rdg wit="var0">two existences</rdg>
+                  <rdg wit="var1">more--existences</rdg>
                </app>
             </l>
-            <l>The Eyes glaze once--and--that is Death--</l>
-            <l>Impossible to feign</l>
-            <l>The Beads upon the Forehead</l>
-            <l>By homely Anguish strung.</l>
+            <l><app>
+                  <rdg wit="var0">Just as the case may be</rdg>
+                  <rdg wit="var1">As Deity decree--</rdg>
+               </app>
+            </l>
+         </lg>
+         <lg>
+            <l>Of Resurrection? Is the East</l>
+            <l>Afraid to trust the Morn</l>
+            <l>With her fastidious forehead?</l>
+            <l>As soon impeach my Crown!</l>
          </lg>
       </body>
    </text>

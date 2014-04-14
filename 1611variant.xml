@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Poem 4 (J 241: 1861/1890)</title>
+            <title>Poem 11 (J 446: 1862/1914)</title>
             <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@
             <msDesc>
                <msIdentifier>
                   <repository></repository>
-                  <idno>1604</idno></msIdentifier>
+                  <idno>1611</idno></msIdentifier>
             </msDesc>
             <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
             </bibl>
@@ -25,23 +25,26 @@
    </teiHeader>
    <text>
       <body>
-         <head><title>Poem 4 (J 241: 1861/1890)</title></head>
+         <head><title>Poem 11 (J 446: 1862/1914)</title></head>
          <lg>
-            <l>I like a look of Agony,</l>
-            <l>Because I know it's true--</l>
-            <l>Men do not sham Convulsion,</l>
-            <l>Nor simulate a Throe--</l>
+            <l>He showed me Hights I never saw--</l>
+            <l>"Would'st Climb," --He said?</l>
+            <l>I said--"Not so" --</l>
+            <l>"With me--" He said--With <emph rend="italic">me</emph>?</l>
+            <l>He showed me Secrets--Morning's Nest--</l>
+            <l>The Rope the Nights were put across--</l>
+            <l>"And now--"Would'st have me for a Guest?"</l>
+            <l>I could not find my Yes</l>
          </lg>
          <lg>
-            <l>
-               <app>
-                  <rdg wit="var0"><del rend="strikethrough">Death comes</del></rdg>
+            <l>And then, He brake His Life--And lo,</l>
+            <l>A Light, for me, did solemn glow,</l>
+            <l><app>
+                  <rdg wit="var0">The steadier, as my face withdrew</rdg>
+                  <rdg wit="var1">The larger--as my face withdrew</rdg>
                </app>
             </l>
-            <l>The Eyes glaze once--and--that is Death--</l>
-            <l>Impossible to feign</l>
-            <l>The Beads upon the Forehead</l>
-            <l>By homely Anguish strung.</l>
+            <l>And could I, further, "No"?</l>
          </lg>
       </body>
    </text>

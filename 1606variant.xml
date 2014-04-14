@@ -6,19 +6,26 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fasicle 16: Poem 6 (J 281: 1861/1935)</title>
+            <title>Poem 6 (J 281: 1861/1935)</title>
+            <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1606</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <head><title>Fasicle 16: Poem 6 (J 281: 1861/1935)</title></head>
+         <head><title>Poem 6 (J 281: 1861/1935)</title></head>
          <lg>
             <l>"Tis so appalling--it exhilarates-- </l>
             <l>

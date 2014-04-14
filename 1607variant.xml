@@ -6,19 +6,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fascicle 16: Poem 7. (J 282: 1861/1929)</title>
+            <title>Poem 7. (J 282: 1861/1929)</title>
+            <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1607</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <head><title>Fascicle 16: Poem 7. (J 282: 1861/1929)</title></head>
+         <head><title>Poem 7. (J 282: 1861/1929)</title></head>
          <lg>
             <l>How noteless Men and Pleiads, stand,</l>
             <l>Until a sudden sky</l>

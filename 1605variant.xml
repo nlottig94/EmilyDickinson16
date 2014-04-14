@@ -6,19 +6,26 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fascicle 16: Poem 5 (J 280: 1861/1896)</title>
+            <title>Poem 5 (J 280: 1861/1896)</title>
+            <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1605</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <head><title>Fascicle 16: Poem 5 (J 280: 1861/1896)</title></head>
+         <head><title>Poem 5 (J 280: 1861/1896)</title></head>
          <lg>
             <l>I felt a Funeral, in my Brain, </l>
             <l>And Mourners to and fro </l>

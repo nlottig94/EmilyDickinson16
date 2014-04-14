@@ -6,37 +6,44 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fascicle 16: Poem 3 (J 279: 1861/1896)</title>
+            <title>Poem 3 (J 279: 1861/1896)</title>
+            <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1603</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <head><title>Fascicle 16: Poem 3 (J 279: 1861/1896)</title></head>
+         <head><title>Poem 3 (J 279: 1861/1896)</title></head>
          <lg>
             <l>Tie the Strings to my Life, My Lord, </l>
             <l>Then, I am ready to go!</l>
-            <l>Just look at the Horses--</l>
+            <l>Just look at the Horses—</l>
             <l>Rapid! That will do!</l>
          </lg>
          <lg>
             <l>Put me in on the <app>
                   <rdg wit="var0">firmest </rdg>
                   <rdg wit="var1">tightest </rdg>
-                  <rdg wit="var2">highest--</rdg>
-               </app>side--</l>
-            <l>So I shall never fall--</l>
-            <l>For we must ride to the Judgment--</l>
+                  <rdg wit="var2">highest—</rdg>
+               </app>side—</l>
+            <l>So I shall never fall—</l>
+            <l>For we must ride to the Judgment—</l>
             <l>
                <app>
-                  <rdg wit="var0">And it's partly, down Hill--</rdg>
-                  <rdg wit="var1">And it's many a mile--the Hills--</rdg>
+                  <rdg wit="var0">And it's partly, down Hill—</rdg>
+                  <rdg wit="var1">And it's many a mile—the Hills—</rdg>
                </app>
             </l>
          </lg>
@@ -46,19 +53,19 @@
                   <rdg wit="var1">Bridges</rdg>
                </app>
             </l>
-            <l>And I never mind the Sea--</l>
-            <l>Held fast in Everlasting Race--</l>
-            <l>By my own Choice, and Thee--</l>
+            <l>And I never mind the Sea—</l>
+            <l>Held fast in Everlasting Race—</l>
+            <l>By my own Choice, and Thee—</l>
          </lg>
          <lg>
-            <l>Goodbye to the Life I used to live--</l>
-            <l>And the World I used to know--</l>
-            <l>And kiss the Hills, for me, just once--</l>
+            <l>Goodbye to the Life I used to live—</l>
+            <l>And the World I used to know—</l>
+            <l>And kiss the Hills, for me, just once—</l>
             <l><app>
-                  <rdg wit="var0">Then--</rdg>
+                  <rdg wit="var0">Then—</rdg>
                   <rdg wit="var1">Now </rdg>
                   <rdg wit="var2">Here's a keepsake for </rdg>
-               </app>I am ready to go!</l>
+               </app> I am ready to go!</l>
          </lg>
       </body>
    </text>
