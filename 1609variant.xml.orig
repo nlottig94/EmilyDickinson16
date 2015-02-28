@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fascicle 16: Poem 9 (J 445: 1862/1896)</title>
+<<<<<<< HEAD
+            <title>Poem 9 (J 445: 1862/1896)</title>
             <author>Emily Dickinson</author>
          </titleStmt>
          <publicationStmt>
@@ -20,48 +21,61 @@
             </msDesc>
             <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
             </bibl>
+=======
+            <title>Fascicle 16: Poem 9 (J 445: 1862/1896)</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+>>>>>>> 9b425370faa1b489bb193614984350b83b04a223
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
+<<<<<<< HEAD
          <head><title>Poem 9 (J 445: 1862/1896)</title></head>
+=======
+         <head><title>Fascicle 16: Poem 9 (J 445: 1862/1896)</title></head>
+>>>>>>> 9b425370faa1b489bb193614984350b83b04a223
 
          <lg>
             <l>'Twas just this time, last year, I died.</l>
             <l> I know I heard the Corn,</l>
-            <l>When I was carried by the Farms—</l>
-            <l>It had the Tassels on—</l>
+            <l>When I was carried by the Farms--</l>
+            <l>It had the Tassels on--</l>
          </lg>
          <lg>
-            <l>I thought how yellow it would look—</l>
-            <l>When Richard went to mill—</l>
+            <l>I thought how yellow it would look--</l>
+            <l>When Richard went to mill--</l>
             <l>And then, I wanted to get out,</l>
             <l>But something held my will.</l>
          </lg>
          <lg>
-            <l>I thought just how red—Apples wedged</l>
-            <l>The Stubble's joints between—</l>
+            <l>I thought just how red--Apples wedged</l>
+            <l>The Stubble's joints between--</l>
             <l>And carts stooping round the fields</l>
-            <l>To take the Pumpkins in—</l>
+            <l>To take the Pumpkins in--</l>
          </lg>
          <lg>
             <l>I wondered which would miss me, least,</l>
             <l>And when Thanksgiving, came,</l>
-            <l>If father'd multiply the plates—</l>
-            <l>To make an even Sum—</l>
+            <l>If father'd multiply the plates--</l>
+            <l>To make an even Sum--</l>
          </lg>
          <lg>
             <l>And would it blur the Christmas glee</l>
             <l>My Stocking hand too high</l>
             <l>For any Santa Claus to reach</l>
-            <l>The Altitude of me—</l>
+            <l>The Altitude of me--</l>
          </lg>
          <lg>
             <l>But this sort, grieved myself,</l>
             <l>And so, I thought the other way,</l>
-            <l>And just this time, some perfect year—</l>
-            <l>Themself, should come to me—</l>
+            <l>And just this time, some perfect year--</l>
+            <l>Themself, should come to me--</l>
          </lg>
       </body>
    </text>
