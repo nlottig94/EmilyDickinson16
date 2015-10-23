@@ -13,8 +13,9 @@
     <xsl:variable name="poems" select="collection('Dickinson')"/>
     <xsl:template match="/">
         <html>
-            <head><title>TITLE</title></head>
+            <head><title>Table of Variants</title></head>
             <body>
+                <hl>Table of Variants</hl>
                 <table>
                     <tr>
                         <th>Title of Poem</th>
