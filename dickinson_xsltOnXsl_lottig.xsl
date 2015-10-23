@@ -10,7 +10,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
 
-    <xsl:variable name="poems" select="collection('Dickinson')"/>
+    <xsl:variable name="poems" select="collection('TEI-XML')"/>
     <xsl:template match="/">
         <html>
             <head><title>TITLE</title></head>
