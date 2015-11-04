@@ -1,0 +1,23 @@
+body { background-color:#677DA5;
+       color:#353B3C;
+       font-family:georgia, arial, helvetica, sans-serif;
+       text-align: center;
+       font-size:15px; 
+}
+table {
+    border-collapse: collapse;
+    margin-right:auto;
+    margin-left:auto;
+}
+table, th, td {
+    border: 1px solid black;
+    padding:7px;
+    background-color: #A2BCE0;
+}
+ul {
+    text-align: left;
+    
+}
+a {
+    color: #A04418;
+}
