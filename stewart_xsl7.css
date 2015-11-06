@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+  text-align: center;
+  width: auto;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+[id^="p"]{
+  text-align: left; 
+}
+
+html{
+    background-color: #FFFFCC;
+    color: #580000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
+
+span.wit{
+  background-color: #CCFF66; 
+}
