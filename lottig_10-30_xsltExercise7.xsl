@@ -17,7 +17,8 @@
         <html>
             <head>
                 <title>Emily Dickinson's Fascicle 16</title>
-                <link rel="stylesheet" type="text/css" href="xslt7_style.css"/>
+                <link rel="stylesheet" type="text/css" href="lottig_xslt7_style.css"/>
+                <!--<link rel="stylesheet" type="text/css" href="stewart_xsl7.css"/>-->
             </head>
             <body>
                 <h1>Emily Dickinson's Fascicle 16</h1>
@@ -33,6 +34,8 @@
                     <table>
                         <tr>
                             <th>Title of Poem</th>
+                            <th>First Line</th>
+                            <th>Number of Lines in the Poem</th>
                             <th>Presence of Variants</th>
                             <th>Number of Variants</th>
                             <th>Variant 1</th>
@@ -59,6 +62,8 @@
     <xsl:template match="body" mode="Table">
         <tr>
             <td><a href="#p{//idno}"><strong><xsl:apply-templates select="//head/title"/></strong></a></td>
+            <td><xsl:apply-templates select="//lg[1]/l[1]"/></td>
+            <td><xsl:value-of select="count(//lg/l)"/></td>
             <td><xsl:apply-templates select=".//l/app/rdg/@wit='var0'"/></td>
             <td><xsl:value-of select="count(//rdg/@wit)"/></td>
             <td><ul><xsl:for-each select="distinct-values(.//l/app/rdg[@wit='var0'])"><li><xsl:value-of select="."/></li></xsl:for-each></ul></td> <!--nll 11-2: I figured it out!! -->
