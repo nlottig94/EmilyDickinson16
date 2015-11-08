@@ -40,9 +40,11 @@
          </lg>
          <lg>
             <l>And then I heard them lift a Box </l>
-            <l>And creak across my Soul </l>
+            <l>And creak across my<app>
+               <rdg wit="var0"><del rend="scribbledOut"/></rdg>
+            </app> Soul </l>
             <l>With those same Boots of lead, again, </l>
-            <l>Then Space began to toll, </l>
+            <l>Then Space—began to toll, </l>
          </lg>
          <lg>
             <l>As all the Heavens were a Bell, </l>
@@ -58,10 +60,10 @@
                   <rdg wit="var1">Crash—</rdg>
                </app>
             </l>
-            <l>
+            <l>And
                <app>
-                  <rdg wit="var0">And Finished </rdg>
-                  <rdg wit="var1">And Got through—</rdg>
+                  <rdg wit="var0">Finished </rdg>
+                  <rdg wit="var1">Got through—</rdg>
                </app>knowing—then—</l>
          </lg>
       </body>
