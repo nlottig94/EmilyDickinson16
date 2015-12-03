@@ -24,6 +24,43 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="poems1">
+                  <bibl>
+                     <title>Poems, First Series</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Mabel loomis Todd and Thomas Wentworth Higginson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Roberts Brothers</publisher>
+                     <date>1890</date>
+                     <ref target="http://www.ibiblio.org/ebooks/Dickinson/Dickinson_Poems1.htm">oems by Emily Dickinson, First Series (html version)</ref>
+                  </bibl>
+               </witness>
+               <witness xml:id="ce">
+                  <bibl>
+                     <title>The Poems of Emily Dickinson: Centenary Edition</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi and Alfred Leete Hampson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1930</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="fh">
+                  <bibl>
+                     <title>Final Harvest: Emily Dickinson's Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Thomas H. Johnson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1961</date>
+                  </bibl>
+               </witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <head><title>Poem 10 (J 608: 1862/1890)</title></head>
          <lg>
