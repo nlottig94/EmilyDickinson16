@@ -24,6 +24,42 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="fp">
+                  <bibl>
+                     <title>Further Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1929</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="ce">
+                  <bibl>
+                     <title>The Poems of Emily Dickinson: Centenary Edition</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi and Alfred Leete Hampson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1930</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="fh">
+                  <bibl>
+                     <title>Final Harvest: Emily Dickinson's Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Thomas H. Johnson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1961</date>
+                  </bibl>
+               </witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <head><title>Poem 7. (J 282: 1861/1929)</title></head>
          <lg>
