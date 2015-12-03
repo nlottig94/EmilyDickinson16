@@ -24,6 +24,22 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="ce">
+                  <bibl>
+                     <title>The Poems of Emily Dickinson: Centenary Edition</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi and Alfred Leete Hampson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1930</date>
+                  </bibl>
+               </witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <head><title>Poem 11 (J 446: 1862/1914)</title></head>
          <lg>
