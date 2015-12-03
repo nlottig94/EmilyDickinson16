@@ -24,6 +24,22 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="fh">
+                  <bibl>
+                     <title>Final Harvest: Emily Dickinson's Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Thomas H. Johnson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1961</date>
+                  </bibl>
+               </witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <head><title>Poem 6 (J 281: 1861/1935)</title></head>
          <lg>
