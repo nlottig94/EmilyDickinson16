@@ -24,6 +24,22 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="bm">
+                  <bibl>
+                     <title>Bolts of Melody: New Poems of Emily Dickinson</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Mabel Loomis Todd and Millicent Todd Bingham</editor>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>Harper and Brothers</publisher>
+                     <date>1945</date>
+                  </bibl>
+               </witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <head><title>Poem 8 (J 242: 1861/1945)</title></head>
          <lg>
