@@ -46,7 +46,7 @@
             <l>'Tis so appalling—it exhilarates— </l>
             <l>So over Horror,
                <app>
-                  <rdg wit="var0">it half Captivates—</rdg>
+                  <rdg wit="var0 #fh">it half Captivates—</rdg>
                   <rdg wit="var1">it dumb fascinates—</rdg>
                </app>
             </l>
@@ -54,7 +54,7 @@
             <l>
                <app>
                   <rdg wit="var0">To know the worst, leaves no dread more—</rdg>
-                  <rdg wit="var1">A Sepulchre, fears frost, no more—</rdg>
+                  <rdg wit="var1 #fh">A Sepulchre, fears frost, no more—</rdg>
                </app>
             </l>
          </lg>

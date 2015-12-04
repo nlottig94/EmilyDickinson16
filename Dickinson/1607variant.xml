@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </lg>
          <lg>
             <l>Why didn't we <app>
-                  <rdg wit="var0">detain Them?</rdg>
+                  <rdg wit="var0 #fp #fh #ce">detain Them?</rdg>
                   <rdg wit="var1">retain Them?</rdg>
                   <rdg wit="var2">detain it?</rdg>
                </app>
@@ -84,8 +84,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <l>The Heavens with a smile,</l>
             <l>Sweep by our disappointed Heads</l>
             <l><app>
-                  <rdg wit="var0">Without a syllable—</rdg>
-                  <rdg wit="var1">But deign no syllable</rdg>
+                  <rdg wit="var0 #fh">Without a syllable—</rdg>
+                  <rdg wit="var1 #fp #ce">But deign no syllable</rdg>
                </app>
             </l>
          </lg>
