@@ -64,10 +64,23 @@
       <body>
          <head><title>Poem 4 (J 241: 1861/1890)</title></head>
          <lg>
-            <l>I like a look of Agony,</l>
-            <l>Because I know it's true—</l>
-            <l>Men do not sham Convulsion,</l>
-            <l>Nor simulate a Throe—</l>
+            <l>I like a look of <app>
+               <rdg wit="#df16 #fh">Agony</rdg>
+               <rdg wit="#poems1 #ce">agony</rdg>
+               
+            </app>,</l>
+            <l>Because I know it's true<app>
+               <rdg wit="df16 #fh">—</rdg>
+               <rdg wit="#poems1 #ce">;</rdg>
+            </app></l>
+            <l>Men do not sham <app>
+               <rdg wit="df16 #fh">Convulsion</rdg>
+               <rdg wit="#poems1 #ce">convulsion</rdg>
+            </app>,</l>
+            <l>Nor simulate<app><rdg wit="#fh">,</rdg></app> a <app>
+               <rdg wit="#df16 #fh">Throe—</rdg>
+               <rdg wit="#poems1 #ce">throe.</rdg>
+            </app></l>
          </lg>
          <lg>
             <l>
@@ -75,10 +88,20 @@
                   <rdg wit="var0"><del rend="strikethrough">Death comes</del></rdg>
                </app>
             </l>
-            <l>The Eyes glaze once—and—that is Death—</l>
+            <l>The Eyes glaze once<app>
+               <rdg wit="#df16">—and—that is Death—</rdg>
+               <rdg wit="#poems1 #ce">, and that is death.</rdg>
+               <rdg wit="#fh">—and that is Death—</rdg>
+            </app></l>
             <l>Impossible to feign</l>
-            <l>The Beads upon the Forehead</l>
-            <l>By homely Anguish strung.</l>
+            <l><app>
+               <rdg wit="#df16 #fh">The Beads upon the Forehead</rdg>
+               <rdg wit="#poems1 #ce">The beads upon the forehead</rdg>
+            </app></l>
+            <l>By homely <app>
+               <rdg wit="#df16 #fh">Anguish</rdg>
+               <rdg wit="#poems1 #ce">anguish</rdg>
+            </app> strung.</l>
          </lg>
       </body>
    </text>
