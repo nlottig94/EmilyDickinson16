@@ -70,38 +70,82 @@
       <body>
          <head><title>Poem 2. (J 607: 1862/1929)</title></head>
          <lg>
-            <l>Of nearness to her Sundered Things</l>
-            <l>The Soul has special times—</l>
-            <l>When Dimness—looks the Oddity—</l>
-            <l>Distinctness—easy—seems—</l>
+            <l>Of nearness to her <app>
+               <rdg wit="#df16">Sundered Things</rdg>
+               <rdg wit="#fh #ce">sundered Things</rdg>
+               <rdg wit="#fp #am">sundered things</rdg></app></l>
+            <l>The Soul has special times<app>
+               <rdg wit="#df16 #fh #ce">—</rdg>
+               <rdg wit="#fp #am">,</rdg></app></l>
+            <l>When Dimness<app>
+               <rdg wit="#df16 #fh">—</rdg>
+               <rdg wit="#ce #fp #am"> </rdg>
+            </app>looks the <app>
+               <rdg wit="#df16 #ce #fh">Oddity—</rdg>
+               <rdg wit="#fp">oddity,</rdg>
+               <rdg wit="#am">Oddity,</rdg></app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">Distinctness—easy—seems—</rdg>
+               <rdg wit="#fh">Distinctness—easy—seems—</rdg>
+               <rdg wit="#ce #fp #am">Distinctness easy seems.</rdg></app></l>
          </lg>
          <lg>
-            <l>The Shapes we buried, dwell about,</l>
-            <l>Familiar, in the Rooms—</l>
-            <l>Untarnished by the Sepulchre,</l>
+            <l>The <app>
+               <rdg wit="#df16 #fh #ce">Shapes</rdg>
+               <rdg wit="#fp #am">shapes</rdg></app> we <app>
+               <rdg wit="#df16 #fh">buried, dwell about,</rdg>
+               <rdg wit="#ce">buried dwell about</rdg>
+               <rdg wit="#fp #am">buried dwell about.</rdg></app></l>
+            <l>Familiar<app>
+               <rdg wit="#df16 #ce #fh #fp">,</rdg>
+               <rdg wit="#am"> </rdg></app> in the <app>
+               <rdg wit="#df16 #fh">Rooms—</rdg>
+               <rdg wit="#ce #fp #am">rooms,</rdg></app></l>
+            <l>Untarnished by the <app>
+               <rdg wit="#df16 #fh">Sepulchre,</rdg>
+               <rdg wit="#ce #am">sepulchre</rdg>
+               <rdg wit="#fp">sepulcher</rdg></app></l>
             <l>
                <app>
-                  <rdg wit="var0">The</rdg>
-                  <rdg wit="var1">Our</rdg>
-               </app> Mouldering Playmate comes—</l>
+                  <rdg wit="var0 #fh">The</rdg>
+                  <rdg wit="var1 #ce #fp #am">Our</rdg>
+               </app> <app>
+                  <rdg wit="#df16 #fh">Mouldering Playmate comes—</rdg>
+                  <rdg wit="#ce #fp #am">moldering playmate comes</rdg></app></l>
          </lg>
          <lg>
-            <l>In just the Jacket that he wore—</l>
-            <l>Long buttoned in the Mold</l>
-            <l>Since we—old mornings, Children—played—</l>
-            <l>Divided—by a world—</l>
+            <l>In just the <app>
+               <rdg wit="#df16 #fh">Jacket that he wore—</rdg>
+               <rdg wit="#ce #fp #am">jacket that he wore,</rdg></app></l>
+            <l>Long buttoned in the <app>
+               <rdg wit="#df16 #fh">Mold</rdg>
+               <rdg wit="#ce #fp #am">mold,</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">Since we—old mornings, Children—played—</rdg>
+                  <rdg wit="#ce #fp #am">Since we, old mornings, children played,</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">Divided—by a world—</rdg>
+               <rdg wit="#ce #fp #am">Divided by a world.</rdg></app></l>
          </lg>
          <lg>
-            <l>The Grave yields back her Robberies—</l>
-            <l>The Years, our pilfered Things—</l>
-            <l>Bright Knots of Apparitions</l>
-            <l>Salute us with their wings—</l>
+            <l><app><rdg wit="#df16 #fh">The Grave yields back her Robberies—</rdg>
+            <rdg wit="#fp #ce #am">The grave yields back her robberies,</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">The Years, our pilfered Things—</rdg>
+            <rdg wit="#fp #ce #am">The years are pilfered things,</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">Bright Knots of Apparitions</rdg>
+            <rdg wit="#ce #fp #am">Bright knots of apparitions</rdg></app></l>
+            <l>Salute<app><rdg wit="#fh">,</rdg></app> us with their wings—</l>
          </lg>
          <lg>
-            <l>As we—it were—that perished—</l>
-            <l>Themself—had just remained till we rejoin them—</l>
-            <l>And 'twas they, and not ourself</l>
-            <l>That mourned.</l>
+            <l><app><rdg wit="#df16 #fh">As we—it were—that perished—</rdg>
+            <rdg wit="#fp #ce #am">As we it were that perished,</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">Themself—had just remained till we rejoin them—</rdg>
+            <rdg wit="#fp #ce #am">Themselves had just remained</rdg></app></l>
+            <l><app><rdg wit="#df16 #fh">And 'twas they, and not ourself</rdg>
+            <rdg wit="#fp">And 'twas They, and not Ourselves</rdg>
+            <rdg wit="#am">Till we rejoin them,</rdg>
+            <rdg wit="#ce">Till we rejoin them, and 'twas They</rdg></app></l>
+            <l><app><rdg wit="#am">And't was They, and not Ourselves</rdg></app></l>
+            <l><app><rdg wit="#df16 #fp #fh #am">That mourned.</rdg>
+            <rdg wit="#ce">And not Ourselves that mourned.</rdg></app></l>
          </lg>
       </body>
    </text>
