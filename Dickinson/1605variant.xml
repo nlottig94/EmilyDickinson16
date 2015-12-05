@@ -62,44 +62,98 @@
          </div>
       </front>
       <body>
+         <!--BLL: #poems3 and #ce are meant to have every other line indented-->
          <head><title>Poem 5 (J 280: 1861/1896)</title></head>
          <lg>
-            <l>I felt a Funeral, in my Brain, </l>
-            <l>And Mourners to and fro </l>
-            <l>Kept treading—treading—till it seemed </l>
-            <l>That Sense was breaking through— </l>
+            <l>I felt a <app>
+               <rdg wit="#df16 #fh">Funeral, in my Brain,</rdg>
+               <rdg wit="#poems3 #ce">funeral in my brain,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">And Mourners to and fro</rdg>
+               <rdg wit="#poems3 #ce">  And mourners, to and fro,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">Kept treading—treading—till it seemed</rdg>
+               <rdg wit="#poems3 #ce">Kept treading, treading, till it seemed</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">That Sense was breaking through—</rdg>
+               <rdg wit="#poems3 #ce">  That sense was breaking through.</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>And when they were all seated, </l>
-            <l>A Service, like a Drum— </l>
-            <l>Kept beating—beating—till I thought </l>
-            <l>My Mind was going numb— </l>
+            <l>And when they <app>
+               <rdg wit="#df16">were all</rdg>
+               <rdg wit="#poems3 #ce #fh">all were</rdg>
+            </app> seated,</l>
+            <l><app>
+               <rdg wit="#df16 #fh">A Service, like a Drum—</rdg>
+               <rdg wit="#poems3 #ce">  A service like a drum</rdg>
+            </app></l>
+            <l>Kept <app>
+               <rdg wit="df16 #fh">beating—beating—</rdg>
+               <rdg wit="#poems3 #ce">beating, beating,</rdg>
+            </app>till I thought </l>
+            <l><app>
+               <rdg wit="#df16 #fh">My Mind was going numb—</rdg>
+               <rdg wit="#poems3 #ce">  My mind was going numb.</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>And then I heard them lift a Box </l>
-            <l>And creak across my<app>
+            <l>And then I heard them lift a <app>
+               <rdg wit="df16 #fh">Box</rdg>
+               <rdg wit="#poems3 #ce">box,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="df16 #fh">And creak across my</rdg>
+               <rdg wit="#poems3 #ce">  And creak across my</rdg>
+            </app><app>
                <rdg wit="var0"><del rend="scribbledOut"/></rdg>
-            </app> Soul </l>
-            <l>With those same Boots of lead, again, </l>
-            <l>Then Space—began to toll, </l>
+            </app> <app>
+               <rdg wit="#df16 #fh"> Soul</rdg>
+               <rdg wit="#poems3 #ce"> soul</rdg>
+            </app></l>
+            <l>With those same <app>
+               <rdg wit="df16 #fh">Boots of lead, again,</rdg>
+               <rdg wit="#poems3 #ce">boots of lead, again.</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="df16 #fh">Then Space—began to toll,</rdg>
+               <rdg wit="#poems3 #ce">  Then space bagan to toll</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>As all the Heavens were a Bell, </l>
-            <l>And Being, but an Ear, </l>
-            <l>And I, and Silence, some strange Race </l>
-            <l>Wrecked, solitary, here— </l>
+            <l>As all the <app>
+               <rdg wit="#df16 #fh">Heavens were a Bell,</rdg>
+               <rdg wit="#poems3 #ce">heavens were a bell,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">And Being, but an Ear,</rdg>
+               <rdg wit="#poems3">  And being but an ear,</rdg>
+               <rdg wit="#ce">   And Being but an ear,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">And I, and Silence, some strange Race</rdg>
+               <rdg wit="#poems3 #ce">And I and silence some strange race,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16 #fh">Wrecked, solitary, here—</rdg>
+               <rdg wit="#poems3 #ce">  Wrecked, solitary, here.</rdg>
+               <!--BLL: #poems3 and #ce end here-->
+            </app></l>
          </lg>
          <lg>
             <l>And then a Plank in Reason, broke, </l>
-            <l>And I dropped down, and down— </l>
+            <l>And I dropped down, and down—</l>
             <l>And hit a World, at every <app>
-                  <rdg wit="var0">plunge,</rdg>
+                  <rdg wit="var0 #fh">plunge,</rdg>
                   <rdg wit="var1">Crash—</rdg>
                </app>
             </l>
             <l>And
                <app>
-                  <rdg wit="var0">Finished </rdg>
+                  <rdg wit="var0 #fh">Finished </rdg>
                   <rdg wit="var1">Got through—</rdg>
                </app>knowing—then—</l>
          </lg>
