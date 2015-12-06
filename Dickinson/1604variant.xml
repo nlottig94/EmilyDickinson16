@@ -77,9 +77,14 @@
                <rdg wit="#df16 #fh">Convulsion</rdg>
                <rdg wit="#poems1 #ce">convulsion</rdg>
             </app>,</l>
-            <l>Nor simulate<app><rdg wit="#fh">,</rdg></app> a <app>
-               <rdg wit="#df16 #fh">Throe—</rdg>
-               <rdg wit="#poems1 #ce">throe.</rdg>
+            <l>Nor simulate<app>
+               <!--asm 12-6-2015: I pulled the "a" into the variations, because the comma being outside of the 
+                  variant and having a separate <app> element was really screwing me up. I think it makes sense
+                  how it is now, and does not distrub the differences. Since Final Harvest has the comma, the entire
+                  section after the comma is the variant. -->
+               <rdg wit="#df16"> a Throe—</rdg>
+               <rdg wit="#fh">, a Throe—</rdg>
+               <rdg wit="#poems1 #ce"> a throe.</rdg>
             </app></l>
          </lg>
          <lg>
