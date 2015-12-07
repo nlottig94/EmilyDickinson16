@@ -27,6 +27,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <front>
          <div type="witness">
             <listWit>
+               <witness xml:id="df16">
+                  <bibl>
+                     <title>ORIGINAL POEMS</title>
+                     <author>Emily Dickinson</author>
+                  </bibl>
+               </witness>
                <witness xml:id="fp">
                   <bibl>
                      <title>Further Poems</title>

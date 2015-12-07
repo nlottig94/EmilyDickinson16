@@ -27,6 +27,12 @@
       <front>
          <div type="witness">
             <listWit>
+               <witness xml:id="df16">
+                  <bibl>
+                     <title>ORIGINAL POEMS</title>
+                     <author>Emily Dickinson</author>
+                  </bibl>
+               </witness>
                <witness xml:id="poems1">
                   <bibl>
                      <title>Poems, First Series</title>

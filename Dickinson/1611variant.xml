@@ -27,6 +27,12 @@
       <front>
          <div type="witness">
             <listWit>
+               <witness xml:id="df16">
+                  <bibl>
+                     <title>ORIGINAL POEMS</title>
+                     <author>Emily Dickinson</author>
+                  </bibl>
+               </witness>
                <witness xml:id="ce">
                   <bibl>
                      <title>The Poems of Emily Dickinson: Centenary Edition</title>
@@ -35,6 +41,12 @@
                      <pubPlace>Boston</pubPlace>
                      <publisher>Little, Brown and Company</publisher>
                      <date>1930</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="lSD">
+                  <bibl>
+                     <title>LETTER TO SISTER-IN-LAW</title>
+                     <author>Emily Dickinson</author>
                   </bibl>
                </witness>
             </listWit>
