@@ -24,17 +24,17 @@ h4 {margin-left: 20%; color:#330000; display:block; font-size: .75em;
 }
 div.title {padding: 5px 5px 5px 5px;}
 div.menubar {padding: 0px 5px 5px 5px}
-div.container{width:100%; float:top; display:inline-block;}
+div.container{width:100%; display:inline-block;}
 div.poem{float:left;
 width:40%; 
 }
 div.viewer{
     width:60%; float:left; 
 }
-img{
+/*img{
 vertical-align:text-top;
-}
-div.published{width:100%; float:bottom; display:inline-block}
+}*/
+div.published{width:100%; display:inline-block}
 
 div.lg{
 padding: 10px 0px 30px 0px;
@@ -68,3 +68,11 @@ text-decoration:none;}
 a:hover{
 text-decoration:underline;}
 
+/*You need this in the CSS to be sure the image map elements are "displayed" as much as they can be in the browser.*/
+map {display:inline} 
+
+/*The efforts to style area elements below do not seem to work.  */
+area#fs1601a-15 {display:inline; border: 5px red;}
+area#fs1601a-15:hover {background-color:yellow;
+  
+}

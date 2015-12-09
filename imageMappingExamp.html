@@ -107,8 +107,8 @@
                <div class="line">
                   <div class="nmbr">15</div>
                   <div class="l">The <div class="variantSet">
-                        <div class="var0">Lightning's jointed Road—</div>
-                        <div class="var1">Morning's Amber Road—</div>
+                     <a href="#fs1601a-15" id="pfs1601a-15"><div class="var0">Lightning's jointed Road—</div></a>
+                     <a href="#fs1601b-15" id="pfs1601b-15"><div class="var1">Morning's Amber Road—</div></a>
                      </div>
                      <br/>
                   </div>
@@ -214,10 +214,14 @@
          </div>
       </div>
       <div class="imagingMapping">
-         <img src="fs16_imgs/fs1601a.jpg" alt="" usemap="#Map1601a" />
-         <map name="fs1601a" id="Map1601a">
-            <area alt="First variant for fs1601var0-15" id="fs1601a-15" class="orginal" href="#" shape="rect" coords="187,949,585,995" />
-            <area alt="Second variant for fs1601var1-15" id="fs1601b-15" class="original" href="#" shape="rect" coords="111,982,580,1043" />
+         <img src="fs16_imgs/fs1601a.jpg" alt="image map of Dickinson poem" usemap="#Map1601a" />
+         <!--2015-12-09 ebb: You need to be sure that usemap points to the @name attribute in the <map> element as
+         we've done here. Note the use of the @title attribute in the <area> elements within the map: the @title enables
+         tooltips to display on mouse entry. And the @id attributes inside the areas make it possible to link from somewhere else 
+         into this point, just as the @href makes it possible to link out.-->
+         <map name="Map1601a" id="Map1601a">  
+            <area alt="First variant for fs1601var0-15" title="First variant for fs1601var0-15" id="fs1601a-15" class="orginal" href="#pfs1601b-15" shape="rect" coords="187,949,585,995" />
+            <area alt="Second variant for fs1601var1-15" title="Second variant for fs1601var1-15" id="fs1601b-15" class="original" href="#pfs1601b-15" shape="rect" coords="111,982,580,1043" />
             [...]
          </map>
       </div>
