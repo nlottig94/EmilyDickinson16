@@ -33,6 +33,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="img/1607/1607fha.jpg"/>
                <ptr target="img/1607/1607fhb.jpg"/>
                <ptr target="img/1607/1607fp.jpg"/>
+               <ptr target="img/1607/1607ceMap.jpg"/>
+               <ptr target="img/1607/1607fhaMap.jpg"/>
+               <ptr target="img/1607/1607fhbMap.jpg"/>
+               <ptr target="img/1607/1607fpMap.jpg"/>
+               <ptr target="img/1607/fs1607Map.jpg"/>
             </listRef>
          </div>
          <div type="witness">
