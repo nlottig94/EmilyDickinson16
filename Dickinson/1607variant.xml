@@ -25,6 +25,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <front>
+         <div type="references">
+            <listRef>
+               <ptr target="xml/1607variant.xml"/>
+               <ptr target="img/1607/fs1607.jpg"/>
+               <ptr target="img/1607/1607ce.jpg"/>
+               <ptr target="img/1607/1607fha.jpg"/>
+               <ptr target="img/1607/1607fhb.jpg"/>
+               <ptr target="img/1607/1607fp.jpg"/>
+            </listRef>
+         </div>
          <div type="witness">
             <listWit>
                <witness xml:id="df16">
