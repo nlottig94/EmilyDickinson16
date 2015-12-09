@@ -25,6 +25,17 @@
    </teiHeader>
    <text>
       <front>
+         <div type="references">
+            <listRef>
+               <ptr target="xml/1604variant.xml"/>
+               <ptr target="img/1604/fs1604.jpg"/>
+               <ptr target="img/1604/1604cea.jpg"/>
+               <ptr target="img/1604/1604ceb.jpg"/>
+               <ptr target="img/1604/1604fha.jpg"/>
+               <ptr target="img/1604/1604fhb.jpg"/>
+               <ptr target="img/1604/1604poems1.jpg"/>
+            </listRef>
+         </div>
          <div type="witness">
             <listWit>
                <witness xml:id="df16">
