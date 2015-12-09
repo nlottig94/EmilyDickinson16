@@ -80,20 +80,45 @@
       </front>
       <body>
          <head><title>Poem 9 (J 445: 1862/1896)</title></head>
+<!--bas: #poems3 actually assigns a title ("RETROSPECT") to this poem.-->
          <lg>
-            <l>'Twas just this time, last year, I died.</l>
-            <l> I know I heard the Corn,</l>
-            <l>When I was carried by the Farms—</l>
-            <l>It had the Tassels on—</l>
+            <l>'Twas just this <app>
+               <rdg wit="#df16">time, last year, I died.</rdg>
+               <rdg wit="#poems3">time last year I died.</rdg>
+            </app></l>
+            <l> I know I heard the <app>
+               <rdg wit="#df16">Corn,</rdg>
+               <rdg wit="#poems3">corn,</rdg>
+            </app></l>
+            <l>When I was carried by the <app>
+               <rdg wit="#df16">Farms—</rdg>
+               <rdg wit="#poems3">farms,—</rdg>
+            </app></l>
+            <l>It had the <app>
+               <rdg wit="#df16">Tassels on—</rdg>
+               <rdg wit="#poems3">tassels on.</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>I thought how yellow it would look—</l>
-            <l>When Richard went to mill—</l>
-            <l>And then, I wanted to get out,</l>
+            <l>I thought how yellow it would <app>
+               <rdg wit="#df16">look—</rdg>
+               <rdg wit="#poems3">look</rdg>
+            </app></l>
+            <l>When Richard went to <app>
+               <rdg wit="#df16">mill—</rdg>
+               <rdg wit="#poems3">mill ;</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16">And then, I wanted to get out,</rdg>
+               <rdg wit="#poems3">And then I wanted to get out,</rdg>
+            </app></l>
             <l>But something held my will.</l>
          </lg>
          <lg>
-            <l>I thought just how red—Apples wedged</l>
+            <l>I thought just how <app>
+               <rdg wit="#df16">red—Apples wedged</rdg>
+               <rdg wit="#poems3">red apples wedged</rdg>
+            </app></l>
             <l>The Stubble's joints between—</l>
             <l>And carts went stooping round the fields</l>
             <l>To take the Pumpkins in—</l>

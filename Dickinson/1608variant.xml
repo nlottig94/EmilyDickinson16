@@ -56,49 +56,99 @@
       <body>
          <head><title>Poem 8 (J 242: 1861/1945)</title></head>
          <lg>
-            <l>When we stand on the tops of Things—</l>
-            <l>And like the Trees, look down—</l>
-            <l>The smoke all cleared away from it—</l>
-            <l>And Mirrors on the scene—</l>
+            <l>When we stand on the tops of <app>
+               <rdg wit="#df16">Things—</rdg>
+               <rdg wit="#bm">things</rdg>
+            </app></l>
+            <l>And like the <app>
+               <rdg wit="#df16">Trees, look down—</rdg>
+               <rdg wit="#bm">trees look down,</rdg>
+            </app></l>
+            <l>The smoke all cleared away from <app>
+               <rdg wit="#df16">it—</rdg>
+               <rdg wit="#bm">it</rdg>
+            </app></l>
+            <l>And <app>
+               <rdg wit="#df16">Mirrors on the scene—</rdg>
+               <rdg wit="#bm">[sunset] on the scene</rdg>
+            <!--bas: There's a footnote here that says "sunset" was used to fill in a blank in the copy of the poem made by Mrs. Todd, as there was no copy in Emily's handwriting available at the time.-->
+            </app></l>
          </lg>
          <lg>
-            <l>Just laying light—no soul will wink</l>
-            <l>Except it have the flaw—</l>
-            <l>The Sound ones, like the Hills
+            <l>Just laying <app>
+               <rdg wit="#df16">light—no</rdg>
+               <rdg wit="#bm">light, no</rdg>
+            </app> soul will wink</l>
+            <l>Except it have the <app>
+               <rdg wit="#df16">flaw—</rdg>
+               <rdg wit="#bm">flaw;</rdg>
+            </app></l>
+            <l>The <app>
+               <rdg wit="#df16">Sound ones, like the Hills</rdg>
+               <rdg wit="#bm">sound ones like the hills</rdg>
+            </app>
                <app>
-                  <rdg wit="var0 #bm">—shall stand—</rdg>
+                  <rdg wit="var0">—shall stand—</rdg>
                   <rdg wit="var1">—stand up—</rdg>
+                  <rdg wit="#bm">shall stand</rdg>
                </app>
             </l>
-            <l>No Lightning, <app>
+            <l>No <app>
+               <rdg wit="#df16">Lightning, </rdg>
+               <rdg wit="#bm">lightning </rdg>
+            </app>
+               <app>
                   <rdg wit="var0">scares away—</rdg>
-                  <rdg wit="var1 #bm">drives away—</rdg>
+                  <rdg wit="var1">drives away—</rdg>
+                  <rdg wit="#bm">drives away.</rdg>
                </app>
             </l>
          </lg>
          <lg>
-            <l>The Perfect, nowhere be afraid—</l>
+            <l>The <app>
+               <rdg wit="#df16">Perfect, nowhere be afraid—</rdg>
+               <rdg wit="#bm">perfect nowhere be afraid,</rdg>
+            </app></l>
             <l>They bear their</l>
             <l><app>
                   <rdg wit="var0">dauntless Heads,</rdg>
                   <rdg wit="var1">fearless—Heads,</rdg>
-                  <rdg wit="var2 #bm">tranquil—Heads,</rdg>
+                  <rdg wit="var2">tranquil—Heads,</rdg>
+                  <rdg wit="#bm">tranquil heads</rdg>
                </app>
             </l>
-            <l>Where others, dare not <app>
+            <l>When <app>
+               <rdg wit="#df16">others, dare not </rdg>
+               <rdg wit="#bm">others dare not </rdg>
+            </app>
+               <app>
                   <rdg wit="var0 #bm">go at Noon,</rdg>
                   <rdg wit="var1">walk at noon,</rdg>
+                  <rdg wit="#bm">go at noon,</rdg>
                </app>
             </l>
-            <l>Protected by their deeds—</l>
+            <l>Protected by their <app>
+               <rdg wit="#df16">deeds—</rdg>
+               <rdg wit="#bm">deeds.</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>The Stars dare shine occasionally</l>
-            <l>Upon a spotted World—</l>
-            <l>And Suns, go surer, for their Proof, </l>
+            <l>The <app>
+               <rdg wit="#df16">Stars</rdg>
+               <rdg wit="#bm">stars</rdg>
+            </app> dare shine occasionally</l>
+            <l>Upon a spotted <app>
+               <rdg wit="#df16">World—</rdg>
+               <rdg wit="#bm">world,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16">And Suns, go surer, for their Proof,</rdg>
+               <rdg wit="#bm">And suns go surer for their proof,</rdg>
+            </app></l>
             <l>As if <app>
-                  <rdg wit="var0 #bm">An Axle, held—</rdg>
+                  <rdg wit="var0">An Axle, held—</rdg>
                   <rdg wit="var1">A Muscle—held</rdg>
+                  <rdg wit="#bm">an axle held.</rdg>
                </app>
             </l>
          </lg>
