@@ -121,8 +121,8 @@
                <rdg wit="#ce">buried dwell about</rdg>
                <rdg wit="#fp #am">buried dwell about.</rdg></app></l>
             <l>Familiar<app>
-               <rdg wit="#df16 #fh #fp">,</rdg>
-               <rdg wit="#am #ce"> </rdg></app> in the <app>
+               <rdg wit="#df16 #fh">,</rdg>
+               <rdg wit="#am #ce #fp"> </rdg></app> in the <app>
                <rdg wit="#df16 #fh">Rooms—</rdg>
                <rdg wit="#ce #fp #am">rooms,</rdg></app></l>
             <l>Untarnished by the <app>
@@ -164,8 +164,8 @@
             <l><app><rdg wit="#df16 #fh">Themself—had just remained till we rejoin them—</rdg>
             <rdg wit="#fp #ce #am">Themselves had just remained</rdg></app></l>
             <l><app><rdg wit="#df16 #fh">And 'twas they, and not ourself</rdg>
-            <rdg wit="#fp">And 'twas They, and not Ourselves</rdg>
-            <rdg wit="#am">Till we rejoin them,</rdg>
+               <rdg wit="#am #fp">Till we rejoin them,</rdg>
+               <rdg wit="#fp">And 'twas They, and not Ourselves</rdg>
             <rdg wit="#ce">Till we rejoin them, and 'twas They</rdg></app></l>
             <l><app><rdg wit="#am">And't was They, and not Ourselves</rdg></app></l>
             <l><app><rdg wit="#df16 #fp #fh #am">That mourned.</rdg>
