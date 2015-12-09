@@ -87,8 +87,8 @@
          <head><title>Poem 3 (J 279: 1861/1896)</title></head>
          <lg>
             <l>Tie the <app>
-               <rdg wit="#df16 #ce #fh">Strings</rdg>
-               <rdg wit="#poems3">strings</rdg>
+               <rdg wit="#df16 #fh">Strings</rdg>
+               <rdg wit="#poems3 #ce">strings</rdg>
             </app> to my <app>
                <rdg wit="#df16 #fh">Life, My</rdg>
                <rdg wit="#ce #poems3">life, my</rdg>
@@ -100,7 +100,7 @@
             <l>Just <app><rdg wit="#fh #ce #poems3">a</rdg></app> look at the <app>
                <rdg wit="#df16 #fh">Horses</rdg>
                <rdg wit="#ce">horses</rdg>
-               <rdg wit="#poems3">horses—</rdg>
+               <rdg wit="#poems3">horses</rdg>
             </app>—</l>
             <l><app><rdg wit="#df16 #fh">Rapid! That will do!</rdg>
             <rdg wit="#ce #poems3">   Rapid!   That will do!</rdg></app></l>
@@ -128,6 +128,7 @@
          </lg>
          <lg>
             <l>But <app>
+               <!--nll 2015-12-09:  In the original it is " never I"....-->
                <rdg wit="#df16">I never</rdg>
                <rdg wit="#ce #fh #poems3">never I</rdg></app> mind the <app>
                   <rdg wit="var0">steepest</rdg>
