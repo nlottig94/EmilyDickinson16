@@ -68,14 +68,75 @@
       <body>
          <head><title>Poem 11 (J 446: 1862/1914)</title></head>
          <lg>
-            <l>He showed me Hights I never saw—</l>
-            <l>"Would'st Climb," —He said?</l>
-            <l>I said, "Not so"—</l>
-            <l>"With me—" He said—"With me"?</l>
-            <l>He showed me Secrets—Morning's Nest—</l>
-            <l>The Rope the Nights were put across—</l>
-            <l>"And now, "Would'st have me for a Guest"?</l>
-            <l>I could not find my "Yes".</l>
+            <l><app>
+               <rdg wit="#df16">He</rdg>
+               <rdg wit="#lSD #ce">I</rdg>
+            </app> showed <app>
+               <rdg wit="#df16">me Hights </rdg>
+               <rdg wit="#lSD">her Hights </rdg>
+               <rdg wit="#ce">her heights</rdg>
+            </app><app>
+               <rdg wit="#df16">I</rdg>
+               <rdg wit="#lSD">she</rdg>
+            </app> never saw—</l>
+            <l>"Would'st <app>
+               <rdg wit="#df16">Climb</rdg>
+               <rdg wit="#lSD">Climb,</rdg>
+               <rdg wit="#ce">climb?</rdg>
+            </app>" <app>
+               <rdg wit="#df16">—He said?</rdg>
+               <rdg wit="#lSD ">I said?</rdg>
+               <rdg wit="#ce">I said,</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#df16">I said,</rdg>
+               <rdg wit="#lSD">She said—</rdg>
+               <rdg wit="#ce">She said</rdg>
+            </app> "Not so"—</l>
+            <l>"With me<app>
+               <rdg wit="#lSD #df16">—</rdg>
+               <rdg wit="#ce">?</rdg>
+            </app>" <app>
+               <rdg wit="#df16">He said—</rdg>
+               <rdg wit="#lSD">I said—</rdg>
+               <rdg wit="#ce"></rdg>
+            </app> <app>
+               <rdg wit="#df16">"With me"?</rdg>
+               <rdg wit="#lSD">With me?</rdg>
+               <rdg wit="#ce">"With me?"</rdg>
+            </app></l>
+<!--#bas: The "me"s are underlined in the lSD version.-->
+            <l><app>
+               <rdg wit="#df16">He</rdg>
+               <rdg wit="#lSD #ce">I</rdg>
+            </app> showed <app>
+               <rdg wit="#df16">me</rdg>
+               <rdg wit="#lSD #ce">her</rdg>
+            </app> <app>
+               <rdg wit="#df16 #lSD">Secrets—Morning's Nest—</rdg>
+               <rdg wit="#ce">secrets</rdg>
+            </app></l>
+            <l><app>
+               <rdg wit="#ce">Morning's nest,</rdg>
+            </app></l>
+            <l>The <app>
+               <rdg wit="#df16 #lSD">Rope the</rdg>
+               <rdg wit="#ce">rope that</rdg>
+            </app> Nights were put across—</l>
+            <l><app>
+               <rdg wit="#df16">"And now, Would'st have me for a Guest"?</rdg>
+               <rdg wit="#lSD">"And now—"Would'st have me for a Guest"?</rdg>
+               <rdg wit="#ce">And now, "Wouldst have me for a Guest?"</rdg>
+            </app></l>
+<!--#bas: "now" is underlined in the #lSD and italicized in the #ce version.-->
+            <l><app>
+               <rdg wit="#df16">I</rdg>
+               <rdg wit="#lSD #ce">She</rdg>
+            </app> could not find <app>
+               <rdg wit="#df16">my "Yes".</rdg>
+               <rdg wit="#lSD">her Yes—</rdg>
+               <rdg wit="#ce">her yes—</rdg>
+            </app></l>
          </lg>
          <lg>
             <l>And then, He brake His Life—And lo,</l>
