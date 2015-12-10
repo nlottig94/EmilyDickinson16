@@ -99,7 +99,7 @@
             </app>" <app>
                <rdg wit="#df16">He said—</rdg>
                <rdg wit="#lSD">I said—</rdg>
-               <rdg wit="#ce"></rdg>
+               <rdg wit="#ce">I said,</rdg>
             </app> <app>
                <rdg wit="#df16">"With me"?</rdg>
                <rdg wit="#lSD">With me?</rdg>
@@ -144,6 +144,7 @@
             <l><app>
                   <rdg wit="var0">The steadier, as my face withdrew</rdg>
                   <rdg wit="var1">The larger—as my face withdrew</rdg>
+                  <rdg wit="#ce">The larger, as her face withdrew—</rdg>
                </app>
             </l>
             <l>And could I further "No"?</l>
