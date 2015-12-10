@@ -101,7 +101,7 @@
                <rdg wit="#df16 #fh">Horses</rdg>
                <rdg wit="#ce">horses</rdg>
                <rdg wit="#poems3">horses</rdg>
-            </app>—</l>
+            </app>&#8212;</l>
             <l><app><rdg wit="#df16 #fh">Rapid! That will do!</rdg>
             <rdg wit="#ce #poems3">   Rapid!   That will do!</rdg></app></l>
          </lg>
@@ -109,19 +109,19 @@
             <l>Put me <app><rdg wit="#df16 #fh #poems3">in</rdg></app> on the <app>
                   <rdg wit="var0 #fh #ce #poems3">firmest </rdg>
                   <rdg wit="var1">tightest </rdg>
-                  <rdg wit="var2">highest—</rdg>
+                  <rdg wit="var2">highest&#8212;</rdg>
                </app><app>
-                  <rdg wit="#df16 #fh">side—</rdg>
+                  <rdg wit="#df16 #fh">side&#8212;</rdg>
                   <rdg wit="#poems3 #ce">side,</rdg></app></l>
-            <l><app><rdg wit="#df16 #fh">So I shall never fall—</rdg>
+            <l><app><rdg wit="#df16 #fh">So I shall never fall&#8212;</rdg>
                 <rdg wit="#ce #poems3">  So I shall never fall;</rdg></app></l>
             <l>For we must ride to the Judgment<app>
-               <rdg wit="#df16 #fh">—</rdg>
+               <rdg wit="#df16 #fh">&#8212;</rdg>
                <rdg wit="#ce #poems3">,</rdg></app></l>
             <l>
                <app>
-                  <rdg wit="var0 #fh">And it's partly, down Hill—</rdg>
-                  <rdg wit="var1">And it's many a mile—the Hills—</rdg>
+                  <rdg wit="var0 #fh">And it's partly, down Hill&#8212;</rdg>
+                  <rdg wit="var1">And it's many a mile&#8212;the Hills&#8212;</rdg>
                   <rdg wit="#ce #poems3">   And it's partly down hill.</rdg>
                </app>
             </l>
@@ -133,39 +133,39 @@
                <rdg wit="#ce #fh #poems3">never I</rdg></app> mind the <app>
                   <rdg wit="var0">steepest</rdg>
                   <rdg wit="var1">Bridges</rdg>
-               <rdg wit="#fh">steepest—</rdg>
+               <rdg wit="#fh">steepest&#8212;</rdg>
                   <rdg wit="#ce #poems3">bridges,</rdg>
                </app>
             </l>
             <l><app>
-               <rdg wit="#df16">And I never mind the Sea—</rdg>
-               <rdg wit="#fh">And never I mind the Sea—</rdg>
+               <rdg wit="#df16">And I never mind the Sea&#8212;</rdg>
+               <rdg wit="#fh">And never I mind the Sea&#8212;</rdg>
                <rdg wit="#ce #poems3">   And never I mind the sea;</rdg>
             </app></l>
             <l>Held fast in <app>
-               <rdg wit="#df16 #fh">Everlasting Race—</rdg>
+               <rdg wit="#df16 #fh">Everlasting Race&#8212;</rdg>
                <rdg wit="#ce #poems3">everlasting race</rdg>
             </app></l>
             <l><app>
-               <rdg wit="#df16 #fh">By my own Choice, and Thee—</rdg>
+               <rdg wit="#df16 #fh">By my own Choice, and Thee&#8212;</rdg>
                <rdg wit="#ce #poems3">   By my own choice and thee.</rdg>
             </app></l>
          </lg>
          <lg>
             <l><app>
-               <rdg wit="#df16 #fh">Goodbye to the Life I used to live—</rdg>
+               <rdg wit="#df16 #fh">Goodbye to the Life I used to live&#8212;</rdg>
                <rdg wit="#ce #poems3">Good-by to the life I used to live,</rdg>
             </app></l>
             <l><app>
-               <rdg wit="#df16 #fh">And the World I used to know—</rdg>
+               <rdg wit="#df16 #fh">And the World I used to know&#8212;</rdg>
                <rdg wit="#ce #poems3">   And the world I used to know;</rdg>
             </app></l>
             <l><app>
-               <rdg wit="#df16 #fh">And kiss the Hills, for me, just once—</rdg>
+               <rdg wit="#df16 #fh">And kiss the Hills, for me, just once&#8212;</rdg>
                <rdg wit="#ce #poems3">And kiss the hills for me, just once;</rdg>
             </app></l>
             <l><app>
-                  <rdg wit="var0 #fh">Then—</rdg>
+                  <rdg wit="var0 #fh">Then&#8212;</rdg>
                   <rdg wit="var1">Now </rdg>
                   <rdg wit="var2">Here's a keepsake for </rdg>
                   <rdg wit="#ce #poems3">   Now</rdg>

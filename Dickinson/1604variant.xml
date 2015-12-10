@@ -93,7 +93,7 @@
                
             </app>,</l>
             <l>Because I know it's true<app>
-               <rdg wit="#df16 #fh">—</rdg>
+               <rdg wit="#df16 #fh">&#8212;</rdg>
                <rdg wit="#poems1 #ce">;</rdg>
             </app></l>
             <l>Men do not sham <app>
@@ -105,8 +105,8 @@
                   variant and having a separate <app> element was really screwing me up. I think it makes sense
                   how it is now, and does not distrub the differences. Since Final Harvest has the comma, the entire
                   section after the comma is the variant. -->
-               <rdg wit="#df16"> a Throe—</rdg>
-               <rdg wit="#fh">, a Throe—</rdg>
+               <rdg wit="#df16"> a Throe&#8212;</rdg>
+               <rdg wit="#fh">, a Throe&#8212;</rdg>
                <rdg wit="#poems1 #ce"> a throe.</rdg>
             </app></l>
          </lg>
@@ -117,9 +117,9 @@
                </app>
             </l>
             <l>The Eyes glaze once<app>
-               <rdg wit="#df16">—and—that is Death—</rdg>
+               <rdg wit="#df16">&#8212;and&#8212;that is Death&#8212;</rdg>
                <rdg wit="#poems1 #ce">, and that is death.</rdg>
-               <rdg wit="#fh">—and that is Death—</rdg>
+               <rdg wit="#fh">&#8212;and that is Death&#8212;</rdg>
             </app></l>
             <l>Impossible to feign</l>
             <l><app>

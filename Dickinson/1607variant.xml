@@ -98,7 +98,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <rdg wit="#fp #ce">one is wrapt</rdg>
             </app></l>
             <l>Forever from the <app>
-               <rdg wit="#df16 #fh">Eye—</rdg>
+               <rdg wit="#df16 #fh">Eye&#8212;</rdg>
                <rdg wit="#fp #ce">eye.</rdg>
             </app></l>
          </lg>
@@ -113,7 +113,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <rdg wit="#fp #ce">In leagueless opportunity</rdg>
             </app></l>
             <l><app>
-               <rdg wit="df16 #fh">O'ertakeless, as the Air—</rdg>
+               <rdg wit="df16 #fh">O'ertakeless, as the Air&#8212;</rdg>
                <rdg wit="#fp #ce">O'er-take-less as the air.</rdg>
             </app></l>
          </lg>
@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <rdg wit="#fp">Heads,</rdg>
             </app></l>
             <l><app>
-                  <rdg wit="var0 #fh">Without a syllable—</rdg>
+                  <rdg wit="var0 #fh">Without a syllable&#8212;</rdg>
                   <rdg wit="var1 #fp #ce">But deign no syllable.</rdg>
                </app>
             </l>
