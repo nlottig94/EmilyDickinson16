@@ -83,31 +83,63 @@
       <body>
          <head><title>Poem 10 (J 608: 1862/1890)</title></head>
          <lg>
-            <l>Afraid! Of whom am I afraid?</l>
-            <l>Not Death—for who is He?</l>
-            <l>The Porter of my father's Lodge</l>
-            <l>As much abasheth me!</l>
+            <l><app>
+               <rdg wit="#df16 #fh">Afraid!</rdg>
+               <rdg wit="#poems1 #ce">Afraid?</rdg>
+            </app> Of whom am I afraid?</l>
+            <l>Not <app>
+               <rdg wit="#df16 #fh">Death—for who is He?</rdg>
+               <rdg wit="#poems1 #ce">death; for who is he?</rdg>
+            </app></l>
+            <l>The <app>
+               <rdg wit="#df16 #fh">Porter</rdg>
+               <rdg wit="#poems1 #ce">porter</rdg>
+            </app> of my <app>
+               <rdg wit="#df16 #fh">Father's Lodge</rdg>
+               <rdg wit="#poems1 #ce">father's lodge</rdg>
+            </app></l>
+            <l>As much abasheth me<app>
+               <rdg wit="#df16 #fh">!</rdg>
+               <rdg wit="#poems1 #ce">.</rdg>
+            </app></l>
          </lg>
          <lg>
-            <l>Of Life? 'Twere odd I fear thing</l>
+            <l>Of Life? 'Twere odd I fear <app>
+               <rdg wit="#df16">thing</rdg>
+               <rdg wit="#poems1 #ce">a thing</rdg>
+               <rdg wit="#fh">[a] thing</rdg>
+            </app></l>
             <l>That comprehendeth me</l>
             <l>In one or <app>
                   <rdg wit="var0 #fh">two existences—</rdg>
-                  <rdg wit="var1 #poems1 #ce">more—existences</rdg>
+                  <rdg wit="var1">more—existences</rdg>
+                  <rdg wit="#poems1 #ce">more existences</rdg>
                </app>
             </l>
             <l><app>
                   <rdg wit="var0">Just as the case may be—</rdg>
                   <rdg wit="var1 #fh">As Deity decree—</rdg>
-                  <rdg wit="#ce #poems1">At Deity's decree.</rdg>
+                  <rdg wit="#poems1 #ce">At Deity's decree.</rdg>
                </app>
             </l>
          </lg>
          <lg>
-            <l>Of Resurrection? Is the East</l>
-            <l>Afraid to trust the Morn</l>
+            <l>Of <app>
+               <rdg wit="#df16 #fh">Resurrection</rdg>
+               <rdg wit="#poems1 #ce">resurrection</rdg>
+            </app>? Is the <app>
+               <rdg wit="#df16 #fh">East</rdg>
+               <rdg wit="#poems1 #ce">east</rdg>
+            </app></l>
+            <l>Afraid to trust the <app>
+               <rdg wit="#df16 #fh">Morn</rdg>
+               <rdg wit="#poems1 #ce">morn</rdg>
+            </app></l>
             <l>With her fastidious forehead?</l>
-            <l>As soon impeach my Crown!</l>
+            <l>As soon impeach my <app>
+               <rdg wit="#df16 #fh">Crown</rdg>
+               <rdg wit="#poems1 #ce">crown</rdg>
+            </app>!</l>
          </lg>
       </body>
    </text>
