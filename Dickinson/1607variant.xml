@@ -94,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </app></l>
             <l>Until a sudden sky</l>
             <l>Reveals the fact that <app>
-               <rdg wit="df16 #fh">One is rapt</rdg>
+               <rdg wit="#df16 #fh">One is rapt</rdg>
                <rdg wit="#fp #ce">one is wrapt</rdg>
             </app></l>
             <l>Forever from the <app>
@@ -105,15 +105,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <lg>
             <l>Members of the Invisible,</l>
             <l><app>
-               <rdg wit="df16 #fh">Existing, while we stare,</rdg>
+               <rdg wit="#df16 #fh">Existing, while we stare,</rdg>
                <rdg wit="#fp #ce">Existing while we stare</rdg>
             </app></l>
             <l><app>
-               <rdg wit="df16 #fh">In Leagueless Opportunity,</rdg>
+               <rdg wit="#df16 #fh">In Leagueless Opportunity,</rdg>
                <rdg wit="#fp #ce">In leagueless opportunity</rdg>
             </app></l>
             <l><app>
-               <rdg wit="df16 #fh">O'ertakeless, as the Air&#8212;</rdg>
+               <rdg wit="#df16 #fh">O'ertakeless, as the Air&#8212;</rdg>
                <rdg wit="#fp #ce">O'er-take-less as the air.</rdg>
             </app></l>
          </lg>
@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <rdg wit="#fp #ce">smile</rdg>
             </app></l>
             <l><app>
-               <rdg wit="df16 #fh">Sweep by our disappointed Heads</rdg>
+               <rdg wit="#df16 #fh">Sweep by our disappointed Heads</rdg>
                <rdg wit="#ce">Sweep by our disappointed heads,</rdg>
                <rdg wit="#fp">Sweep by our disappointed</rdg>
             </app></l>
