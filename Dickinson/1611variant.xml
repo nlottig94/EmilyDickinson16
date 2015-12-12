@@ -93,19 +93,19 @@
                <rdg wit="#lSD">She said—</rdg>
                <rdg wit="#ce">She said</rdg>
             </app> "Not so"—</l>
-            <l>"With me<app>
-               <rdg wit="#lSD #df16">—</rdg>
-               <rdg wit="#ce">?</rdg>
+            <l>"With <app>
+               <rdg wit="#lSD"><emph rend="underline">me</emph>—</rdg>
+               <rdg wit="#df16">me—</rdg>
+               <rdg wit="#ce">me?</rdg>
             </app>" <app>
                <rdg wit="#df16">He said—</rdg>
                <rdg wit="#lSD">I said—</rdg>
                <rdg wit="#ce">I said,</rdg>
             </app> <app>
                <rdg wit="#df16">"With me"?</rdg>
-               <rdg wit="#lSD">With me?</rdg>
+               <rdg wit="#lSD">With <emph rend="underline">me</emph>?</rdg>
                <rdg wit="#ce">"With me?"</rdg>
             </app></l>
-<!--#bas: The "me"s are underlined in the lSD version.-->
             <l><app>
                <rdg wit="#df16">He</rdg>
                <rdg wit="#lSD #ce">I</rdg>
@@ -125,10 +125,9 @@
             </app> Nights were put across—</l>
             <l><app>
                <rdg wit="#df16">"And now, Would'st have me for a Guest"?</rdg>
-               <rdg wit="#lSD">"And now—"Would'st have me for a Guest"?</rdg>
-               <rdg wit="#ce">And now, "Wouldst have me for a Guest?"</rdg>
+               <rdg wit="#lSD">"And <emph rend="underline">now</emph>—"Would'st have me for a Guest"?</rdg>
+               <rdg wit="#ce">And <emph rend="italicized">now</emph>, "Wouldst have me for a Guest?"</rdg>
             </app></l>
-<!--#bas: "now" is underlined in the #lSD and italicized in the #ce version.-->
             <l><app>
                <rdg wit="#df16">I</rdg>
                <rdg wit="#lSD #ce">She</rdg>
@@ -139,17 +138,34 @@
             </app></l>
          </lg>
          <lg>
-            <l>And then, He brake His Life—And lo,</l>
-            <l>A Light for me, did solemn glow—</l>
+            <l>And then, <app>
+               <rdg wit="#df16">He</rdg>
+               <rdg wit="#ce #lSD">I</rdg>
+            </app> brake <app>
+               <rdg wit="#df16">His Life—And lo,</rdg>
+               <rdg wit="#lSD">my life—And Lo,</rdg>
+               <rdg wit="#ce">my life, and Lo!</rdg>
+            </app></l>
+            <l>A <app>
+               <rdg wit="#df16">light for me,</rdg>
+               <rdg wit="#lSD">Light, for her,</rdg>
+               <rdg wit="#ce">light for her,</rdg>
+            </app> did solemn glow<app>
+               <rdg wit="#df16">—</rdg>
+               <rdg wit="#lSD #ce">,</rdg>
+            </app></l>
             <l><app>
-                  <rdg wit="var0">The steadier, as my face withdrew</rdg>
-                  <rdg wit="var1">The larger—as my face withdrew</rdg>
-                  <rdg wit="#ce">The larger, as her face withdrew—</rdg>
+                  <rdg wit="var0">The steadier, as my face withdrew—</rdg>
+                  <rdg wit="var1">The larger—as my face withdrew—</rdg>
+                  <rdg wit="#lSD #ce">The larger, as her face withdrew—</rdg>
                </app>
             </l>
-            <l>And could I further "No"?</l>
+            <l>And <app>
+               <rdg wit="#df16">could I further "No"?</rdg>
+               <rdg wit="#lSD"><emph rend="underline">could</emph> she, futher, "No"?</rdg>
+               <rdg wit="#ce">could she, further, "No?"</rdg>
+            </app></l>
          </lg>
       </body>
    </text>
 </TEI>
-<!--I waas here-->
