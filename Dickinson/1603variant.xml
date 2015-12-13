@@ -36,8 +36,7 @@
                <ptr target="img/1603/1603ceMap.jpg"/>
                <ptr target="img/1603/1603fhMap.jpg"/>
                <ptr target="img/1603/1603poems3Map.jpg"/>
-               <ptr target="img/1603/fs1603aMap.jpg"/>
-               <ptr target="img/1603/fs1603bMap.jpg"/>
+               <ptr target="img/1603/fs1603Map.jpg"/>
             </listRef>
          </div>
          <div type="witness">
@@ -128,8 +127,7 @@
          </lg>
          <lg>
             <l>But <app>
-               <!--nll 2015-12-09:  In the original it is " never I"....-->
-               <rdg wit="#df16">I never</rdg>
+               <rdg wit="#df16">never I</rdg>
                <rdg wit="#ce #fh #poems3">never I</rdg></app> mind the <app>
                   <rdg wit="var0">steepest</rdg>
                   <rdg wit="var1">Bridges</rdg>
@@ -138,8 +136,7 @@
                </app>
             </l>
             <l><app>
-               <rdg wit="#df16">And I never mind the Sea&#8212;</rdg>
-               <rdg wit="#fh">And never I mind the Sea&#8212;</rdg>
+               <rdg wit="#df16 #fh">And never I mind the Sea&#8212;</rdg>
                <rdg wit="#ce #poems3">And never I mind the sea;</rdg>
             </app></l>
             <l>Held fast in <app>
@@ -164,12 +161,16 @@
                <rdg wit="#df16 #fh">And kiss the Hills, for me, just once&#8212;</rdg>
                <rdg wit="#ce #poems3">And kiss the hills for me, just once;</rdg>
             </app></l>
+            <!--asm 2015-12-13:  Interpreted transcriptions to include line previously left out-->
             <l><app>
                   <rdg wit="var0 #fh">Then&#8212;</rdg>
-                  <rdg wit="var1">Now </rdg>
-                  <rdg wit="var2">Here's a keepsake for </rdg>
-                  <rdg wit="#ce #poems3">Now</rdg>
+                  <rdg wit="var1 #ce #poems3">Now</rdg>
                </app> I am ready to go!</l>
+            <l><app>
+               <rdg wit ="var0">And it's many a mile&#8212;the Hills</rdg>
+               <rdg wit ="var1">And it's many a mile&#8212;Bridges</rdg>
+               <rdg wit ="var2">Here's a keepsake for the Hills</rdg>
+            </app></l>
          </lg>
       </body>
    </text>
