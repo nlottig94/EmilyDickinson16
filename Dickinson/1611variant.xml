@@ -68,73 +68,74 @@
       <body>
          <head><title>Poem 11 (J 446: 1862/1914)</title></head>
          <lg>
-            <l><app>
+            <l> <app>
                <rdg wit="#df16">He</rdg>
                <rdg wit="#lSD #ce">I</rdg>
             </app> showed <app>
                <rdg wit="#df16">me Hights </rdg>
                <rdg wit="#lSD">her Hights </rdg>
                <rdg wit="#ce">her heights</rdg>
-            </app><app>
+            </app> <app>
                <rdg wit="#df16">I</rdg>
-               <rdg wit="#lSD">she</rdg>
-            </app> never saw—</l>
-            <l>"Would'st <app>
-               <rdg wit="#df16">Climb</rdg>
-               <rdg wit="#lSD">Climb,</rdg>
-               <rdg wit="#ce">climb?</rdg>
+               <rdg wit="#ce #lSD">she</rdg>
+            </app> never saw&#8212;</l>
+            <l>"<app>
+               <rdg wit="#df16">Would'st Climb</rdg>
+               <rdg wit="#lSD">Would'st Climb,</rdg>
+               <rdg wit="#ce">Wouldst climb?</rdg>
             </app>" <app>
-               <rdg wit="#df16">—He said?</rdg>
+               <rdg wit="#df16">&#8212;He said?</rdg>
                <rdg wit="#lSD ">I said?</rdg>
                <rdg wit="#ce">I said,</rdg>
             </app></l>
-            <l><app>
+            <l> <app>
                <rdg wit="#df16">I said,</rdg>
-               <rdg wit="#lSD">She said—</rdg>
+               <rdg wit="#lSD">She said&#8212;</rdg>
                <rdg wit="#ce">She said</rdg>
-            </app> "Not so"—</l>
+            </app> "Not so"&#8212;</l>
             <l>"With <app>
-               <rdg wit="#lSD"><emph rend="underline">me</emph>—</rdg>
-               <rdg wit="#df16">me—</rdg>
+               <rdg wit="#lSD"><emph rend="underline">me</emph>&#8212;</rdg>
+               <rdg wit="#df16">me&#8212;</rdg>
                <rdg wit="#ce">me?</rdg>
             </app>" <app>
-               <rdg wit="#df16">He said—</rdg>
-               <rdg wit="#lSD">I said—</rdg>
+               <rdg wit="#df16">He said&#8212;</rdg>
+               <rdg wit="#lSD">I said&#8212;</rdg>
                <rdg wit="#ce">I said,</rdg>
             </app> <app>
                <rdg wit="#df16">"With me"?</rdg>
                <rdg wit="#lSD">With <emph rend="underline">me</emph>?</rdg>
                <rdg wit="#ce">"With me?"</rdg>
             </app></l>
-            <l><app>
+            <l> <app>
                <rdg wit="#df16">He</rdg>
                <rdg wit="#lSD #ce">I</rdg>
             </app> showed <app>
                <rdg wit="#df16">me</rdg>
                <rdg wit="#lSD #ce">her</rdg>
             </app> <app>
-               <rdg wit="#df16 #lSD">Secrets—Morning's Nest—</rdg>
+               <rdg wit="#df16 #lSD">Secrets&#8212;</rdg>
                <rdg wit="#ce">secrets</rdg>
             </app></l>
             <l><app>
+               <rdg wit="#df16 #lSD">Morning's Nest&#8212;</rdg>
                <rdg wit="#ce">Morning's nest,</rdg>
             </app></l>
             <l>The <app>
                <rdg wit="#df16 #lSD">Rope the</rdg>
                <rdg wit="#ce">rope that</rdg>
-            </app> Nights were put across—</l>
+            </app> Nights were put across&#8212;</l>
             <l><app>
                <rdg wit="#df16">"And now, Would'st have me for a Guest"?</rdg>
-               <rdg wit="#lSD">"And <emph rend="underline">now</emph>—"Would'st have me for a Guest"?</rdg>
+               <rdg wit="#lSD">"And <emph rend="underline">now</emph>&#8212;"Would'st have me for a Guest"?</rdg>
                <rdg wit="#ce">And <emph rend="italicized">now</emph>, "Wouldst have me for a Guest?"</rdg>
             </app></l>
-            <l><app>
+            <l> <app>
                <rdg wit="#df16">I</rdg>
                <rdg wit="#lSD #ce">She</rdg>
             </app> could not find <app>
                <rdg wit="#df16">my "Yes".</rdg>
-               <rdg wit="#lSD">her Yes—</rdg>
-               <rdg wit="#ce">her yes—</rdg>
+               <rdg wit="#lSD">her Yes&#8212;</rdg>
+               <rdg wit="#ce">her yes&#8212;</rdg>
             </app></l>
          </lg>
          <lg>
@@ -142,8 +143,8 @@
                <rdg wit="#df16">He</rdg>
                <rdg wit="#ce #lSD">I</rdg>
             </app> brake <app>
-               <rdg wit="#df16">His Life—And lo,</rdg>
-               <rdg wit="#lSD">my life—And Lo,</rdg>
+               <rdg wit="#df16">His Life&#8212;And lo,</rdg>
+               <rdg wit="#lSD">my life&#8212;And Lo,</rdg>
                <rdg wit="#ce">my life, and Lo!</rdg>
             </app></l>
             <l>A <app>
@@ -151,14 +152,13 @@
                <rdg wit="#lSD">Light, for her,</rdg>
                <rdg wit="#ce">light for her,</rdg>
             </app> did solemn glow<app>
-               <rdg wit="#df16">—</rdg>
+               <rdg wit="#df16">&#8212;</rdg>
                <rdg wit="#lSD #ce">,</rdg>
             </app></l>
             <l><app>
-                  <rdg wit="var0">The steadier, as my face withdrew—</rdg>
-                  <rdg wit="var1">The larger—as my face withdrew—</rdg>
-                  <rdg wit="#lSD #ce">The larger, as her face withdrew—</rdg>
-               </app>
+               <rdg wit="#df16">The steadier, as my face withdrew&#8212;</rdg>
+               <rdg wit="#lSD #ce">The larger, as her face withdrew&#8212;</rdg>
+              </app>
             </l>
             <l>And <app>
                <rdg wit="#df16">could I further "No"?</rdg>
