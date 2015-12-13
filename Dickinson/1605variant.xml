@@ -34,12 +34,10 @@
                <ptr target="img/1605/1605ceb.jpg"/>
                <ptr target="img/1605/1605fh.jpg"/>
                <ptr target="img/1605/1605poems3.jpg"/>
-               <ptr target="img/1605/1605ceaMap.jpg"/>
-               <ptr target="img/1605/1605cebMap.jpg"/>
+               <ptr target="img/1605/1605ceMap.jpg"/>
                <ptr target="img/1605/1605fhMap.jpg"/>
                <ptr target="img/1605/1605poems3Map.jpg"/>
-               <ptr target="img/1605/fs1605aMap.jpg"/>
-               <ptr target="img/1605/fs1605bMap.jpg"/>
+               <ptr target="img/1605/fs1605Map.jpg"/>
             </listRef>
          </div>
          <div type="witness">
@@ -85,7 +83,6 @@
          </div>
       </front>
       <body>
-         <!--BLL: #poems3 and #ce are meant to have every other line indented-->
          <head><title>Poem 5 (J 280: 1861/1896)</title></head>
          <lg>
             <l>I felt a <app>
@@ -94,7 +91,7 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">And Mourners to and fro</rdg>
-               <rdg wit="#poems3 #ce">  And mourners, to and fro,</rdg>
+               <rdg wit="#poems3 #ce">And mourners, to and fro,</rdg>
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">Kept treading&#8212;treading&#8212;till it seemed</rdg>
@@ -102,22 +99,22 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">That Sense was breaking through&#8212;</rdg>
-               <rdg wit="#poems3 #ce">  That sense was breaking through.</rdg>
+               <rdg wit="#poems3 #ce">That sense was breaking through.</rdg>
             </app></l>
          </lg>
          <lg>
             <l>And when they all were seated,</l>
             <l><app>
                <rdg wit="#df16 #fh">A Service, like a Drum&#8212;</rdg>
-               <rdg wit="#poems3 #ce">  A service like a drum</rdg>
+               <rdg wit="#poems3 #ce">A service like a drum</rdg>
             </app></l>
             <l>Kept <app>
-               <rdg wit="df16 #fh">beating&#8212;beating&#8212;</rdg>
+               <rdg wit="#df16 #fh">beating&#8212;beating&#8212;</rdg>
                <rdg wit="#poems3 #ce">beating, beating,</rdg>
-            </app>till I thought </l>
+            </app>till I thought</l>
             <l><app>
                <rdg wit="#df16 #fh">My Mind was going numb&#8212;</rdg>
-               <rdg wit="#poems3 #ce">  My mind was going numb.</rdg>
+               <rdg wit="#poems3 #ce">My mind was going numb.</rdg>
             </app></l>
          </lg>
          <lg>
@@ -127,10 +124,8 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">And creak across my</rdg>
-               <rdg wit="#poems3 #ce">  And creak across my</rdg>
+               <rdg wit="#poems3 #ce">And creak across my</rdg>
             </app><app>
-               <rdg wit="var0"><del rend="scribbledOut"/></rdg>
-            </app> <app>
                <rdg wit="#df16 #fh"> Soul</rdg>
                <rdg wit="#poems3 #ce"> soul</rdg>
             </app></l>
@@ -140,7 +135,7 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">Then Space&#8212;began to toll,</rdg>
-               <rdg wit="#poems3 #ce">  Then space bagan to toll</rdg>
+               <rdg wit="#poems3 #ce">Then space bagan to toll</rdg>
             </app></l>
          </lg>
          <lg>
@@ -150,7 +145,7 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">And Being, but an Ear,</rdg>
-               <rdg wit="#ce #poems3">   And Being but an ear,</rdg>
+               <rdg wit="#ce #poems3">And Being but an ear,</rdg>
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">And I, and Silence, some strange Race</rdg>
@@ -158,9 +153,10 @@
             </app></l>
             <l><app>
                <rdg wit="#df16 #fh">Wrecked, solitary, here&#8212;</rdg>
-               <rdg wit="#poems3 #ce">  Wrecked, solitary, here.</rdg>
-               <!--BLL: #poems3 and #ce end here-->
+               <rdg wit="#poems3 #ce">Wrecked, solitary, here.</rdg>
             </app></l>
+            <label xml:id="poems3End"/>
+            <label xml:id="ceEnd"/>
          </lg>
          <lg>
             <l>And then a Plank in Reason, broke, </l>
