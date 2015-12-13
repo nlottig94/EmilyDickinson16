@@ -29,9 +29,10 @@
             <listRef>
                <ptr target="xml/1608variant.xml"/>
                <ptr target="img/1608/fs1608a.jpg"/>
+               <ptr target="img/1608/fs1608b.jpg"/>
                <ptr target="img/1608/1608bm.jpg"/>
                <ptr target="img/1608/1608bmMap.jpg"/>
-               <ptr target="img/1608/fs1608aMap.jpg"/>
+               <ptr target="img/1608/fs1608Map.jpg"/>
             </listRef>
          </div>
          <div type="witness">
