@@ -35,11 +35,9 @@
                <ptr target="img/1609/1609fhb.jpg"/>
                <ptr target="img/1609/1609poems3.jpg"/>
                <ptr target="img/1609/1609ceMap.jpg"/>
-               <ptr target="img/1609/1609fhaMap.jpg"/>
-               <ptr target="img/1609/1609fhbMap.jpg"/>
+               <ptr target="img/1609/1609fhMap.jpg"/>
                <ptr target="img/1609/1609poems3Map.jpg"/>
-               <ptr target="img/1609/fs1609aMap.jpg"/>
-               <ptr target="img/1609/fs1609bMap.jpg"/>
+               <ptr target="img/1609/fs1609Map.jpg"/>
             </listRef>
          </div>
          <div type="witness">
@@ -87,7 +85,6 @@
       <body>
          <head><title>Poem 9 (J 445: 1862/1896)</title></head>
 <!--bas: #poems3 actually assigns a title ("RETROSPECT.") to this poem.-->
-<!--bas: every other line of the #poems3 version is indented.-->
          <lg>
             <l>'Twas just this <app>
                <rdg wit="#df16 #fh">time, last year, I died.</rdg>
