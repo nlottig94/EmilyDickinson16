@@ -3,61 +3,10 @@ body {
     background-image: url("../img/diamond_upholstery.png");
     background-repeat: repeat;
 }
-h2 {
-    font-family: 'Open Sans', sans-serif;  
-}
-
-.para{
-    background-color: #DDDDDD; 
-    height:100%;
-    width:380px;
-    margin-bottom:20px;
-    margin-top:20px;
-    padding: 20px;
-    border-radius: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-}
-.mainCont{
-    width:100%;
-}
-.cfix:after {
-    display:block;
-    clear:both;
-}
-.main {
-    width:1000px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:-10px;
-    background-color: #FFF;
-    padding: 30px;
-}
 .header {
     width:100%;
     margin:0px auto;
     height: 120px;
-}
-.cclic {
-    float:right;
-    padding: 50px 30px;
-}
-.noShowLink {
-    text-decoration: none;
-}
-.title {
-	float:left;
-	padding-left: 30px;
-}
-.nameTitle {
-	font-family: 'Seaweed Script', cursive;
-	font-size: 60px;
-	color:#000000;
-}
-.siteTitle {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	color:#000000;
 }
 .mwrapper {
     width:100%;
@@ -140,6 +89,10 @@ h2 {
     background-color:#172A42;
     border-radius: 15px;
 }
+.cfix:after {
+    display:block;
+    clear:both;
+}
 .side-nav {
     float: left;
     width:180px;
@@ -156,6 +109,52 @@ h2 {
     width: 435px;
     height: 100%;
     margin-left:10px;
+}
+.mainCont{
+    width:100%;
+}
+.main {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-10px;
+    background-color: #FFF;
+    padding: 30px;
+}
+.cclic {
+    float:right;
+    padding: 50px 30px;
+}
+.noShowLink {
+    text-decoration: none;
+}
+.title {
+	float:left;
+	padding-left: 30px;
+}
+.nameTitle {
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color:#000000;
+}
+.siteTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color:#000000;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;  
+}
+.para{
+    background-color: #DDDDDD; 
+    height:100%;
+    width:380px;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 .lineNum {
     background-color:#000000;  
@@ -305,11 +304,22 @@ button {
     margin: 10px 15px 10px 15px;
     font-size: 15px;
 }
-.origXML a, .origImg a {
+.origXML {
     color:#FFFFFF;
     text-decoration: none;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color:#BBBBBB;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 60px;
 }
-.origXML a:hover {
+.origXML:hover {
     color:#000000;
 }
 .origImg:hover {
