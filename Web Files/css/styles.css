@@ -1,0 +1,470 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic|Seaweed+Script);
+body {
+    background-image: url("../img/diamond_upholstery.png");
+    background-repeat: repeat;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.para{
+    background-color: #DDDDDD; 
+    height:100%;
+    width:380px;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.mainCont{
+    width:100%;
+}
+.cfix:after {
+    display:block;
+    clear:both;
+}
+.main {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-10px;
+    background-color: #FFF;
+    padding: 30px;
+}
+.header {
+    width:100%;
+    margin:0px auto;
+    height: 120px;
+}
+.cclic {
+    float:right;
+    padding: 50px 30px;
+}
+.noShowLink {
+    text-decoration: none;
+}
+.title {
+	float:left;
+	padding-left: 30px;
+}
+.nameTitle {
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color:#000000;
+}
+.siteTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color:#000000;
+}
+.mwrapper {
+    width:100%;
+}
+.menu {
+    width:1000px;
+    margin:0px auto;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#172A42;
+    border-radius: 15px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+}
+.menu a {
+    transition:all linear 0.15s;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight: 300;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#FFF;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:17px;
+}
+.menu > ul > li > a {
+    padding:10px 62px 20px 62px;
+    display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#115A8F;
+}
+.menu li:hover .sub {
+    z-index:1;
+    opacity:1;
+    visibility: visible;
+}
+.sub {
+    width:140%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#F2F2F2;
+    visibility: hidden;
+}
+.sub li {
+    display:block;
+    font-size:16px;
+}
+.sub li a {
+    padding:10px 30px;
+    display:block;
+    color: #000;
+}
+.sub li a:hover, .sub .current-item a {
+    background:#115A8F;
+    color: #FFF;
+    font-weight: 700;
+}
+.footer {
+    width:100%;
+    margin:0px auto;
+    height: 120px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#172A42;
+    border-radius: 15px;
+}
+.side-nav {
+    float: left;
+    width:180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    height: 100%;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+}
+.poem {
+    float: left;
+    width: 435px;
+    height: 100%;
+    margin-left:10px;
+}
+.lineNum {
+    background-color:#000000;  
+    color: #FFFFFF;
+    padding: 2px;
+}
+.lineContent {
+    padding-left: 5px;
+}
+.line {
+    border-bottom: 1px dashed #AAAAAA;
+    
+}
+.copy {
+    float: left;
+    width: 720px;
+    height: 100%;
+    margin-left:10px;
+}
+.members {
+	display: table;
+    width: 750px;
+    height: 100%;
+    margin-bottom: 35px;
+}
+.memberRow {
+	display: table-row;
+	height: 150px;
+}
+.memberPic {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.memberBio {
+	display: table-cell;
+	width: 550px;
+	background-color: #DDDDDD;
+	border-radius: 15px;
+}
+.memberName {
+	padding: 10px;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+}
+.memberBioCopy {
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.poemImg {
+    float: left;
+    width: 350px;
+    height: 100%;
+    padding-top:70px;
+}
+.content {
+    width:100%;
+    margin:0px auto;
+    overflow: auto;
+}
+.df16 {
+    display: inline;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+.poems1 {
+    display: none;
+    background-color: #FF9900;
+}
+.poems2 {
+    display: none;
+    background-color: #FFFF00;
+}
+.poems3 {
+    display: none;
+    background-color: #ACE500;
+}
+.fp {
+    display: none;
+    background-color: #00CC00;
+}
+.ce {
+    display: none;
+    background-color: #0099CC;
+}
+.fh {
+    display: none;
+    background-color: #2200CC;
+    color: #FFFFFF;
+}
+.bm {
+    display: none;
+    background-color: #8800CC;
+    color: #FFFFFF;
+}
+.am {
+    display: none;
+    background-color: #D9007E;
+}
+.lsd {
+    display: none;
+    background-color: #EC008C;
+}
+#df16Map {
+    display: block;
+}
+#poems1Map {
+    display: none;
+}
+#poems2Map {
+    display: none;
+}
+#poems3Map {
+    display: none;
+}
+#fpMap {
+    display: none;
+}
+#ceMap {
+    display: none;
+}
+#fhMap {
+    display: none;
+}
+#bmMap {
+    display: none;
+}
+#amMap {
+    display: none;
+}
+#lsdMap {
+    display: none;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin: 10px 15px 10px 15px;
+    font-size: 15px;
+}
+.df16Key {
+    background-color: #C80000;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.df16Key:hover, .df16KeyON {
+    background-color: #FF0000;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 0 rgba(0,0,0,.3);
+}
+.poems1Key {
+    background-color: #FF9900;
+}
+.poems1Key:hover, .poems1KeyON {
+    background-color: #C87800;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.poems2Key {
+    background-color: #FFFF00;
+    color: #000000;
+}
+.poems2Key:hover, .poems2KeyON {
+    background-color: #C8C800;
+    color: #000000;
+     -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.poems3Key {
+    background-color: #ACE500;
+    color: #000000;
+}
+.poems3Key:hover, .poems3KeyON {
+    background-color: #87B400;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.fpKey {
+    background-color: #00CC00;
+}
+.fpKey:hover, .fpKeyON {
+    background-color: #00A000;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.ceKey {
+    background-color: #0099CC;
+}
+.ceKey:hover, .ceKeyON {
+    background-color: #0078A0;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.fhKey {
+    background-color: #2200CC;
+}
+.fhKey:hover, .fhKeyON {
+    background-color: #1B00A0;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.bmKey {
+    background-color: #8800CC;
+}
+.bmKey:hover, .bmKeyON {
+    background-color: #6B00A0;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.amKey {
+    background-color: #D9007E;
+}
+.amKey:hover, .amKeyON {
+    background-color: #AA0063;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.lSDKey {
+    background-color: #EC008C;
+}
+.lSDKey:hover, .lSDKeyON {
+    background-color: #B20069;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.var {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+}
+.close {
+    color: #999999;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #172A42;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.modal-body {
+    padding: 2px 16px;   
+}
+.modal-content {
+    position: relative;
+    background-color: #FFFFFF;
+    margin: 250px auto;
+    padding: 0;
+    width: 1000px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    height: 450px;
+}
+.modalImgCont {
+    margin: 5px;
+    border: 3px solid #000000;
+    height: 275px;
+    float: left;
+    width: 120px;
+}
+.modalImgCont:hover {
+    border: 3px solid #CCCCCC;
+}
+.modalImgCont img {
+    width: 100%;
+    height: 170px;
+}
+.modalDesc {
+    padding: 15px;
+    text-align: center;
+}
