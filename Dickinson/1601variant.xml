@@ -130,9 +130,9 @@
                <rdg wit="#fh">Noon as I could take</rdg>
                <rdg wit="#ce #poems2">noon as I could take</rdg></app></l>
             <l>Between my finite <app>
-               <rdg wit="#df16">Eyes</rdg>
-               <rdg wit="#fh">eyes</rdg>
-               <rdg wit="#ce #poems2">eyes.</rdg></app>&#8212;</l>
+               <rdg wit="#df16">Eyes&#8212;</rdg>
+               <rdg wit="#fh">eyes&#8212;</rdg>
+               <rdg wit="#ce #poems2">eyes.</rdg></app></l>
          </lg>
          <lg>
             <l><app>
@@ -156,7 +156,7 @@
                   <rdg wit="#poems2"> !</rdg></app></l>
          </lg>
          <lg>
-            <l><app>
+            <l> <app>
                <rdg wit="#df16 #fh">So safer&#8212;guess&#8212;</rdg>
                <rdg wit="#ce #poems2">So, safer, guess, </rdg></app>with just my soul</l>
             <l>Upon the <app>
