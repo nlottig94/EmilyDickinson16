@@ -109,7 +109,7 @@
                   <rdg wit="var0 #fh #ce #poems3">firmest </rdg>
                   <rdg wit="var1">tightest </rdg>
                   <rdg wit="var2">highest&#8212;</rdg>
-               </app><app>
+               </app> <app>
                   <rdg wit="#df16 #fh">side&#8212;</rdg>
                   <rdg wit="#poems3 #ce">side,</rdg></app></l>
             <l><app><rdg wit="#df16 #fh">So I shall never fall&#8212;</rdg>
@@ -162,7 +162,7 @@
                <rdg wit="#ce #poems3">And kiss the hills for me, just once;</rdg>
             </app></l>
             <!--asm 2015-12-13:  Interpreted transcriptions to include line previously left out-->
-            <l><app>
+            <l> <app>
                   <rdg wit="var0 #fh">Then&#8212;</rdg>
                   <rdg wit="var1 #ce #poems3">Now</rdg>
                </app> I am ready to go!</l>
