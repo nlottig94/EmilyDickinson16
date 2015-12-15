@@ -156,6 +156,9 @@ body {
 p, h2, h3 {
     font-family: 'Open Sans', sans-serif;  
 }
+h2 {
+    color:#115A8F;
+}
 .drop { 
 	float: left; 
 	color: #115A8F; 
@@ -203,7 +206,7 @@ p, h2, h3 {
 }
 .memberRow {
 	display: table-row;
-	height: 150px;
+	height: 100%;
 }
 .memberPic {
 	display: table-cell;
@@ -222,6 +225,7 @@ p, h2, h3 {
 	display:block;
 	text-align: center;
 	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
 .memberBioCopy {
 	line-height: 30px;
@@ -325,7 +329,7 @@ button {
     margin: 10px 15px 10px 15px;
     font-size: 15px;
 }
-.origXML {
+.origXML, .regButton {
     color:#FFFFFF;
     text-decoration: none;
     width: 150px;
@@ -340,7 +344,7 @@ button {
     text-align: center;
     line-height: 60px;
 }
-.origXML:hover {
+.origXML:hover, .regButton:hover {
     color:#000000;
 }
 .origImg:hover {
@@ -476,6 +480,9 @@ button {
     color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.modal-header h2 {
+    color: white;
 }
 .modal-body {
     padding: 2px 16px;   
