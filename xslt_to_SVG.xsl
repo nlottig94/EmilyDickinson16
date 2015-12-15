@@ -2,13 +2,15 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:variable name="DickinsonColl" select="collection('Dickinson')"/>
     <xsl:variable name="y-interval" select="100"/>
     <xsl:variable name="x-interval" select="50"/>
-    
+   
+   
     <xsl:template match="/">
         <svg width="100%" height="100%">
             <g transform="translate(100, 600)">
@@ -55,10 +57,37 @@
                     <line x1="550" x2="550" y1="10" y2="-10" stroke="black" stroke-width="1"/>
                 </g>
                 <g id="dots">
-                    
+        <!--ebb: This isn't working yet! The numbers for the hyphen count are much too high per poem.
+        They should be on the order of 20 to 30 hyphens per poem, not in the hundreds. -->        
+              <xsl:for-each select="$DickinsonColl//TEI">
+                  <xsl:variable name="poemNumber" select="number(substring-after(.//idno, '16'))"/>
+                  <xsl:variable name="hyphenX">
+                      <xsl:apply-templates select=".//rdg"/>
+                  </xsl:variable>
+              <xsl:variable name="hyphenCount">
+                      <xsl:value-of select="string-length($hyphenX)"/>
+                  </xsl:variable>
+               
+              
+                 <xsl:text>Hyphen Count!</xsl:text><xsl:value-of select="$hyphenCount"/>
+                        <circle cx="{$poemNumber*$x-interval}" cy="-{$hyphenCount}" r="40" stroke="black" stroke-width="3" fill="red" />
+                            
+             
+                    </xsl:for-each>
                 </g>
             </g>
         </svg>
     </xsl:template>
+    <xsl:template match="rdg[contains(., '&#8212;')]">
+        <xsl:analyze-string select="." regex="&#8212;">
+            <xsl:matching-substring >
+       <!--         
+          <xsl:value-of select="regex-group(0)"/>-->
+             <xsl:text>X</xsl:text>   
+            </xsl:matching-substring>
+            
+        </xsl:analyze-string>
+    </xsl:template>
+    
     
 </xsl:stylesheet>
