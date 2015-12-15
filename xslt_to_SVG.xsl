@@ -30,6 +30,31 @@
                     <line x1="-10" x2="550" y1="-400" y2="-400" style="stroke: black; fill:none; stroke-width: 1px; stroke-dasharray: 10 5"/>
                     <!-- y-axis label -->
                     <text x="210" y="-50" transform="rotate(-90)" text-anchor="middle" font-size="20px">Percentage of Usages</text>
+                    <!-- x-axis marks -->
+                    <text x="50" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
+                    <line x1="50" x2="50" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="100" y="25" text-anchor="middle" font-size="10px">Poem 2</text>
+                    <line x1="100" x2="100" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="150" y="25" text-anchor="middle" font-size="10px">Poem 3</text>
+                    <line x1="150" x2="150" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="200" y="25" text-anchor="middle" font-size="10px">Poem 4</text>
+                    <line x1="200" x2="200" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="250" y="25" text-anchor="middle" font-size="10px">Poem 5</text>
+                    <line x1="250" x2="250" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="300" y="25" text-anchor="middle" font-size="10px">Poem 6</text>
+                    <line x1="300" x2="300" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="350" y="25" text-anchor="middle" font-size="10px">Poem 7</text>
+                    <line x1="350" x2="350" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="400" y="25" text-anchor="middle" font-size="10px">Poem 8</text>
+                    <line x1="400" x2="400" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="450" y="25" text-anchor="middle" font-size="10px">Poem 9</text>
+                    <line x1="450" x2="450" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="500" y="25" text-anchor="middle" font-size="10px">Poem 10</text>
+                    <line x1="500" x2="500" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                    <text x="550" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
+                    <line x1="550" x2="550" y1="10" y2="-10" stroke="black" stroke-width="1"/>
+                </g>
+                <g id="dots">
                     
                 </g>
             </g>
