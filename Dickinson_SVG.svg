@@ -2,6 +2,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
    <g transform="translate(100, 600)">
       <g id="baseStuff">
+         <line x1="45"
+               x2="45"
+               y1="0"
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="50"/>
+         <line x1="-1"
+               x2="550"
+               y1="0"
+               y2="0"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="-1"
+               x2="550"
+               y1="0"
+               y2="0"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="-1"
+               x2="550"
+               y1="0"
+               y2="0"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="-1"
+               x2="550"
+               y1="0"
+               y2="0"
+               stroke="black"
+               stroke-width="1"/>
          <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Reduction in Published Versions Compared to Originals</text>
          <line x1="-1"
                x2="550"

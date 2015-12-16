@@ -15,10 +15,15 @@
         <svg width="100%" height="100%">
             <g transform="translate(100, 600)">
                 <g id="baseStuff">
+                    <line x1="45" x2="45" y1="0" y2="-450" stroke="#EEEEEE" stroke-width="50"/>
+                    <line x1="-1" x2="550" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                    <line x1="-1" x2="550" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                    <line x1="-1" x2="550" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                    <line x1="-1" x2="550" y1="0" y2="0" stroke="black" stroke-width="1"/>
                     <!-- title -->
                     <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Reduction in Published Versions Compared to Originals</text>
                     <!-- y-Axis -->
-                    <line x1="0" x2="0" y1="0" y2="-450" stroke="black" stroke-width="1"/>
+                    <!--<line x1="0" x2="0" y1="0" y2="-450" stroke="black" stroke-width="1"/>-->
                     <!-- x-Axis -->
                     <line x1="-1" x2="550" y1="0" y2="0" stroke="black" stroke-width="1"/>
                     <!-- y-axis marks -->
@@ -33,36 +38,37 @@
                     <!-- y-axis label -->
                     <text x="210" y="-50" transform="rotate(-90)" text-anchor="middle" font-size="20px">Percentage of Reduction</text>
                     <!-- x-axis marks -->
+                    <line x1="20" x2="20" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="50" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
                     <line x1="50" x2="50" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="75" x2="75" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="70" x2="70" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="100" y="25" text-anchor="middle" font-size="10px">Poem 2</text>
                     <line x1="100" x2="100" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="125" x2="125" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="120" x2="120" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="150" y="25" text-anchor="middle" font-size="10px">Poem 3</text>
                     <line x1="150" x2="150" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="175" x2="175" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="170" x2="170" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="200" y="25" text-anchor="middle" font-size="10px">Poem 4</text>
                     <line x1="200" x2="200" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="225" x2="225" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="220" x2="220" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="250" y="25" text-anchor="middle" font-size="10px">Poem 5</text>
                     <line x1="250" x2="250" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="275" x2="275" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="270" x2="270" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="300" y="25" text-anchor="middle" font-size="10px">Poem 6</text>
                     <line x1="300" x2="300" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="325" x2="325" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="320" x2="320" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="350" y="25" text-anchor="middle" font-size="10px">Poem 7</text>
                     <line x1="350" x2="350" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="375" x2="375" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="370" x2="370" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="400" y="25" text-anchor="middle" font-size="10px">Poem 8</text>
                     <line x1="400" x2="400" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="425" x2="425" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="420" x2="420" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="450" y="25" text-anchor="middle" font-size="10px">Poem 9</text>
                     <line x1="450" x2="450" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="475" x2="475" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="470" x2="470" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="500" y="25" text-anchor="middle" font-size="10px">Poem 10</text>
                     <line x1="500" x2="500" y1="10" y2="-10" stroke="black" stroke-width="1"/>
-                    <line x1="525" x2="525" y1="10" y2="-450" stroke="black" stroke-width="1"/>
+                    <line x1="520" x2="520" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                     <text x="550" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
                     <line x1="550" x2="550" y1="10" y2="-10" stroke="black" stroke-width="1"/>
                 </g>
@@ -83,6 +89,20 @@
                  we use analyze-string to isolate the dash characters, and output a letter "X" every time it finds one. As this variable loops through
                  each text node, it accumulates a string of X characters for every dash it finds. In the variable following
                  this one, $dashCount, we calculate the string-length of those X's.-->
+                  
+                  <xsl:variable name="nonRdgDash">
+                      <xsl:for-each select="//l[text()[contains(., '&#8212;')]]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountNonRdg">
+                      <xsl:value-of select="string-length($nonRdgDash)"/>
+                  </xsl:variable>
+                  
                   <xsl:variable name="dashX">
                       <xsl:for-each select=".//body//rdg[@wit[contains(., '#df16') or contains(., 'var')]][contains(., '&#8212;')]">
                           <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
@@ -93,7 +113,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountDickinson">
-                      <xsl:value-of select="string-length($dashX)"/>
+                      <xsl:value-of select="string-length($dashX) + $dashCountNonRdg"/>
                   </xsl:variable>
                   
                   <xsl:variable name="ceDash">
@@ -106,7 +126,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountCE">
-                      <xsl:value-of select="string-length($ceDash)"/>
+                      <xsl:value-of select="string-length($ceDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="CER">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountCE) div $dashCountDickinson) * 100"/>
@@ -121,7 +141,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountlSD">
-                      <xsl:value-of select="string-length($lsdDash)"/>
+                      <xsl:value-of select="string-length($lsdDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="lSD">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountlSD) div $dashCountDickinson) * 100"/>
@@ -137,7 +157,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountAM">
-                      <xsl:value-of select="string-length($amDash)"/>
+                      <xsl:value-of select="string-length($amDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="am">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountAM) div $dashCountDickinson) * 100"/>
@@ -153,7 +173,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountBM">
-                      <xsl:value-of select="string-length($bmDash)"/>
+                      <xsl:value-of select="string-length($bmDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="bm">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountBM) div $dashCountDickinson) * 100"/>
@@ -169,7 +189,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountFH">
-                      <xsl:value-of select="string-length($fhDash)"/>
+                      <xsl:value-of select="string-length($fhDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="fh">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountFH) div $dashCountDickinson) * 100"/>
@@ -185,7 +205,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountFP">
-                      <xsl:value-of select="string-length($fpDash)"/>
+                      <xsl:value-of select="string-length($fpDash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="fp">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountFP) div $dashCountDickinson) * 100"/>
@@ -201,7 +221,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountPOEMS3">
-                      <xsl:value-of select="string-length($poems3Dash)"/>
+                      <xsl:value-of select="string-length($poems3Dash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="poems3">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS3) div $dashCountDickinson) * 100"/>
@@ -217,7 +237,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountPOEMS2">
-                      <xsl:value-of select="string-length($poems2Dash)"/>
+                      <xsl:value-of select="string-length($poems2Dash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="poems2">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS2) div $dashCountDickinson) * 100"/>
@@ -233,7 +253,7 @@
                       </xsl:for-each>
                   </xsl:variable>
                   <xsl:variable name="dashCountPOEMS1">
-                      <xsl:value-of select="string-length($poems1Dash)"/>
+                      <xsl:value-of select="string-length($poems1Dash) + $dashCountNonRdg"/>
                   </xsl:variable>
                   <xsl:variable name="poems1">
                       <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS1) div $dashCountDickinson) * 100"/>
