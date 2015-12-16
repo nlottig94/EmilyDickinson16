@@ -7,7 +7,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:variable name="DickinsonColl" select="collection('Dickinson')"/>
-    <xsl:variable name="y-interval" select="100"/>
+    <xsl:variable name="y-interval" select="10"/>
     <xsl:variable name="x-interval" select="50"/>
    
    
@@ -57,20 +57,29 @@
                     <line x1="550" x2="550" y1="10" y2="-10" stroke="black" stroke-width="1"/>
                 </g>
                 <g id="dots">
-        <!--ebb: This isn't working yet! The numbers for the hyphen count are much too high per poem.
-        They should be on the order of 20 to 30 hyphens per poem, not in the hundreds. -->        
+        <!--ebb: This seems to be working now. Compare the output values with what you can see in the poems' XML to
+        double check! NOTE TO TEAM: I've set circles on your graph, and they look pretty but they are meaningless in relation to your
+        Y axis and the title of your graph! 
+        My numbers and values for the Y position of each red circle are just based on RAW COUNTS of the dash characters in each poem and have NOTHING to do with Percentages. You need to 
+        work out how to produce percentages. It looks like you want to plot percentages based on the total number of dashes as 100%, and
+        each published version's use of dashes as a distinct ratio over that original count. 
+       
+        -->        
               <xsl:for-each select="$DickinsonColl//TEI">
                   <xsl:variable name="poemNumber" select="number(substring-after(.//idno, '16'))"/>
-                  <xsl:variable name="hyphenX">
-                      <xsl:apply-templates select=".//rdg"/>
+                  <xsl:variable name="dashContainers">
+                      <xsl:value-of select=".//body//*/text()[contains(., '&#8212;')]"/>
                   </xsl:variable>
-              <xsl:variable name="hyphenCount">
-                      <xsl:value-of select="string-length($hyphenX)"/>
+                  <!--ebb: This variable, $dashContainers, steps down from the body element in each file in the collection, and 
+                      holds the text nodes of any element that contain dash characters. -->
+              <xsl:variable name="dashCount">
+                  <xsl:value-of select="string-length($dashContainers) - string-length(translate($dashContainers, '&#8212;', ''))"/>
                   </xsl:variable>
                
-              
-                 <xsl:text>Hyphen Count!</xsl:text><xsl:value-of select="$hyphenCount"/>
-                        <circle cx="{$poemNumber*$x-interval}" cy="-{$hyphenCount}" r="40" stroke="black" stroke-width="3" fill="red" />
+              <!--ebb: You'll maybe want to comment out this "Dash Count!" below or use it differently in an SVG element: I just wanted a 
+              readout of the dash count in the output code while checking! -->
+              <xsl:comment><xsl:text>Dash Count! </xsl:text><xsl:value-of select="$dashCount"/></xsl:comment> 
+                        <circle cx="{$poemNumber*$x-interval}" cy="-{$dashCount*$y-interval}" r="4" stroke="black" stroke-width="3" fill="red" />
                             
              
                     </xsl:for-each>
@@ -78,16 +87,6 @@
             </g>
         </svg>
     </xsl:template>
-    <xsl:template match="rdg[contains(., '&#8212;')]">
-        <xsl:analyze-string select="." regex="&#8212;">
-            <xsl:matching-substring >
-       <!--         
-          <xsl:value-of select="regex-group(0)"/>-->
-             <xsl:text>X</xsl:text>   
-            </xsl:matching-substring>
-            
-        </xsl:analyze-string>
-    </xsl:template>
-    
+   
     
 </xsl:stylesheet>

@@ -122,6 +122,83 @@
                stroke="black"
                stroke-width="1"/>
       </g>
-      <g id="dots"/>
+      <g id="dots"><!--Dash Count! 30-->
+         <circle cx="50"
+                 cy="-300"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 22-->
+         <circle cx="100"
+                 cy="-220"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 18-->
+         <circle cx="150"
+                 cy="-180"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 8-->
+         <circle cx="200"
+                 cy="-80"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 14-->
+         <circle cx="250"
+                 cy="-140"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 27-->
+         <circle cx="300"
+                 cy="-270"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 3-->
+         <circle cx="350"
+                 cy="-30"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 19-->
+         <circle cx="400"
+                 cy="-190"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 13-->
+         <circle cx="450"
+                 cy="-130"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 5-->
+         <circle cx="500"
+                 cy="-50"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+         <!--Dash Count! 19-->
+         <circle cx="550"
+                 cy="-190"
+                 r="4"
+                 stroke="black"
+                 stroke-width="3"
+                 fill="red"/>
+      </g>
    </g>
 </svg>
