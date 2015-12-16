@@ -122,5 +122,46 @@
                stroke="black"
                stroke-width="1"/>
       </g>
+      <g id="dots"><!--Poem number: 1. Dash Count: 21 CE % Reduction: 90.47619047619048 CE Dash Count: 2-->
+         <circle cx="25" cy="-361.9047619047619" r="4" fill="#0099CC"/>
+         <circle cx="45" cy="--57.14285714285714" r="4" fill="#2200CC"/>
+         <circle cx="60" cy="-361.9047619047619" r="4" fill="#FFFF00"/>
+         <!--Poem number: 2. Dash Count: 21 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="75" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="85" cy="-400" r="4" fill="#D9007E"/>
+         <circle cx="95" cy="-0" r="4" fill="#2200CC"/>
+         <circle cx="100" cy="-400" r="4" fill="#00CC00"/>
+         <!--Poem number: 3. Dash Count: 16 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="125" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="145" cy="-100" r="4" fill="#2200CC"/>
+         <circle cx="155" cy="-400" r="4" fill="#ACE500"/>
+         <!--Poem number: 4. Dash Count: 5 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="175" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="195" cy="-80" r="4" fill="#2200CC"/>
+         <circle cx="215" cy="-400" r="4" fill="#FF9900"/>
+         <!--Poem number: 5. Dash Count: 11 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="225" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="245" cy="-72.72727272727273" r="4" fill="#2200CC"/>
+         <circle cx="255" cy="-400" r="4" fill="#ACE500"/>
+         <!--Poem number: 6. Dash Count: 6 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="295" cy="-133.33333333333331" r="4" fill="#2200CC"/>
+         <!--Poem number: 7. Dash Count: 3 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="325" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="345" cy="-0" r="4" fill="#2200CC"/>
+         <circle cx="350" cy="-400" r="4" fill="#00CC00"/>
+         <!--Poem number: 8. Dash Count: 19 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="390" cy="-400" r="4" fill="#8800CC"/>
+         <!--Poem number: 9. Dash Count: 12 CE % Reduction: 91.66666666666666 CE Dash Count: 1-->
+         <circle cx="425" cy="-366.66666666666663" r="4" fill="#0099CC"/>
+         <circle cx="445" cy="-0" r="4" fill="#2200CC"/>
+         <circle cx="455" cy="-366.66666666666663" r="4" fill="#ACE500"/>
+         <!--Poem number: 10. Dash Count: 5 CE % Reduction: 100 CE Dash Count: 0-->
+         <circle cx="475" cy="-400" r="4" fill="#0099CC"/>
+         <circle cx="495" cy="-160" r="4" fill="#2200CC"/>
+         <circle cx="515" cy="-400" r="4" fill="#FF9900"/>
+         <!--Poem number: 11. Dash Count: 8 CE % Reduction: 75 CE Dash Count: 2-->
+         <circle cx="525" cy="-300" r="4" fill="#0099CC"/>
+         <circle cx="530" cy="--50" r="4" fill="#ec008c"/>
+      </g>
    </g>
 </svg>

@@ -7,7 +7,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:variable name="DickinsonColl" select="collection('Dickinson')"/>
-    <xsl:variable name="y-interval" select="10"/>
+    <xsl:variable name="y-interval" select="4"/>
     <xsl:variable name="x-interval" select="50"/>
    
    
@@ -74,7 +74,7 @@
                  each text node, it accumulates a string of X characters for every dash it finds. In the variable following
                  this one, $dashCount, we calculate the string-length of those X's.-->
                   <xsl:variable name="dashX">
-                      <xsl:for-each select=".//body//*[text()[contains(., '&#8212;')]]">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#df16') or contains(., 'var')]][contains(., '&#8212;')]">
                           <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
                        <xsl:matching-substring>
                            <xsl:text>X</xsl:text>
@@ -82,8 +82,151 @@
                       </xsl:analyze-string>
                       </xsl:for-each>
                   </xsl:variable>
-                  <xsl:variable name="dashCount">
+                  <xsl:variable name="dashCountDickinson">
                       <xsl:value-of select="string-length($dashX)"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="ceDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#ce')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountCE">
+                      <xsl:value-of select="string-length($ceDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="CER">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountCE) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  <xsl:variable name="lsdDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#lSD')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountlSD">
+                      <xsl:value-of select="string-length($lsdDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="lSD">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountlSD) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="amDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#am')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountAM">
+                      <xsl:value-of select="string-length($amDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="am">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountAM) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="bmDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#bm')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountBM">
+                      <xsl:value-of select="string-length($bmDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="bm">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountBM) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="fhDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#fh')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountFH">
+                      <xsl:value-of select="string-length($fhDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="fh">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountFH) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="fpDash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#fp')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountFP">
+                      <xsl:value-of select="string-length($fpDash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="fp">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountFP) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="poems3Dash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#poems3')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountPOEMS3">
+                      <xsl:value-of select="string-length($poems3Dash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="poems3">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS3) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="poems2Dash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#poems2')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountPOEMS2">
+                      <xsl:value-of select="string-length($poems2Dash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="poems2">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS2) div $dashCountDickinson) * 100"/>
+                  </xsl:variable>
+                  
+                  <xsl:variable name="poems1Dash">
+                      <xsl:for-each select=".//body//rdg[@wit[contains(., '#poems1')]][contains(., '&#8212;')]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                              <xsl:matching-substring>
+                                  <xsl:text>X</xsl:text>
+                              </xsl:matching-substring>        
+                          </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCountPOEMS1">
+                      <xsl:value-of select="string-length($poems1Dash)"/>
+                  </xsl:variable>
+                  <xsl:variable name="poems1">
+                      <xsl:value-of select="(($dashCountDickinson - $dashCountPOEMS1) div $dashCountDickinson) * 100"/>
                   </xsl:variable>
                  
                   <!--ebb: Here is an alternate way to count the dashes (commented out variables below). These variables 
@@ -104,11 +247,24 @@
               <!--ebb: You'll maybe want to comment out this "Dash Count!" below or use it differently in an SVG element: I just wanted a 
               diagnostic reading of the dash count in the output code while checking! -->
               <xsl:comment><xsl:text>Poem number: </xsl:text><xsl:value-of select="$poemNumber"/>
-                  <xsl:text>. Dash Count: </xsl:text><xsl:value-of select="$dashCount"/></xsl:comment> 
-                        <circle cx="{$poemNumber*$x-interval}" cy="-{$dashCount*$y-interval}" r="4" stroke="black" stroke-width="3" fill="red" />
-                            
+                  <xsl:text>. Dash Count: </xsl:text><xsl:value-of select="$dashCountDickinson"/>
+              <xsl:text> CE % Reduction: </xsl:text><xsl:value-of select="$CER"/>
+              <xsl:text> CE Dash Count: </xsl:text><xsl:value-of select="$dashCountCE"/></xsl:comment> 
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#ce')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-25}" cy="-{$CER*$y-interval}" r="4" fill="#0099CC" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#lSD')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-20}" cy="-{$lSD*$y-interval}" r="4" fill="#ec008c" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#am')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-15}" cy="-{$am*$y-interval}" r="4" fill="#D9007E" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#bm')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-10}" cy="-{$bm*$y-interval}" r="4" fill="#8800CC" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#fh')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-5}" cy="-{$fh*$y-interval}" r="4" fill="#2200CC" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#fp')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)-0}" cy="-{$fp*$y-interval}" r="4" fill="#00CC00" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#poems3')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)+5}" cy="-{$poems3*$y-interval}" r="4" fill="#ACE500" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#poems2')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)+10}" cy="-{$poems2*$y-interval}" r="4" fill="#FFFF00" /></xsl:if>
+                  <xsl:if test="(count(//rdg[@wit[contains(., '#poems1')]])) &gt; 0"><circle cx="{($poemNumber*$x-interval)+15}" cy="-{$poems1*$y-interval}" r="4" fill="#FF9900" /></xsl:if>
+                  
              
                     </xsl:for-each>
+                    
+                    
+                    
                 </g>
             </g>
         </svg>
