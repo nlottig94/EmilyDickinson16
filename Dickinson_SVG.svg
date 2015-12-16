@@ -2,13 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
    <g transform="translate(100, 600)">
       <g id="baseStuff">
-         <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Changes in Published Versions Compared to Originals</text>
-         <line x1="0"
-               x2="0"
-               y1="0"
-               y2="-450"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Reduction in Published Versions Compared to Originals</text>
          <line x1="-1"
                x2="550"
                y1="0"
@@ -43,12 +37,24 @@
                y="-50"
                transform="rotate(-90)"
                text-anchor="middle"
-               font-size="20px">Percentage of Usages</text>
+               font-size="20px">Percentage of Reduction</text>
+         <line x1="20"
+               x2="20"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="50" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
          <line x1="50"
                x2="50"
                y1="10"
                y2="-10"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="70"
+               x2="70"
+               y1="10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
          <text x="100" y="25" text-anchor="middle" font-size="10px">Poem 2</text>
@@ -58,11 +64,23 @@
                y2="-10"
                stroke="black"
                stroke-width="1"/>
+         <line x1="120"
+               x2="120"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="150" y="25" text-anchor="middle" font-size="10px">Poem 3</text>
          <line x1="150"
                x2="150"
                y1="10"
                y2="-10"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="170"
+               x2="170"
+               y1="10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
          <text x="200" y="25" text-anchor="middle" font-size="10px">Poem 4</text>
@@ -72,11 +90,23 @@
                y2="-10"
                stroke="black"
                stroke-width="1"/>
+         <line x1="220"
+               x2="220"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="250" y="25" text-anchor="middle" font-size="10px">Poem 5</text>
          <line x1="250"
                x2="250"
                y1="10"
                y2="-10"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="270"
+               x2="270"
+               y1="10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
          <text x="300" y="25" text-anchor="middle" font-size="10px">Poem 6</text>
@@ -86,11 +116,23 @@
                y2="-10"
                stroke="black"
                stroke-width="1"/>
+         <line x1="320"
+               x2="320"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="350" y="25" text-anchor="middle" font-size="10px">Poem 7</text>
          <line x1="350"
                x2="350"
                y1="10"
                y2="-10"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="370"
+               x2="370"
+               y1="10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
          <text x="400" y="25" text-anchor="middle" font-size="10px">Poem 8</text>
@@ -100,6 +142,12 @@
                y2="-10"
                stroke="black"
                stroke-width="1"/>
+         <line x1="420"
+               x2="420"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="450" y="25" text-anchor="middle" font-size="10px">Poem 9</text>
          <line x1="450"
                x2="450"
@@ -107,11 +155,23 @@
                y2="-10"
                stroke="black"
                stroke-width="1"/>
+         <line x1="470"
+               x2="470"
+               y1="10"
+               y2="-450"
+               stroke="black"
+               stroke-width="1"/>
          <text x="500" y="25" text-anchor="middle" font-size="10px">Poem 10</text>
          <line x1="500"
                x2="500"
                y1="10"
                y2="-10"
+               stroke="black"
+               stroke-width="1"/>
+         <line x1="520"
+               x2="520"
+               y1="10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
          <text x="550" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
@@ -126,25 +186,25 @@
          <circle cx="25" cy="-361.9047619047619" r="4" fill="#0099CC"/>
          <circle cx="45" cy="--57.14285714285714" r="4" fill="#2200CC"/>
          <circle cx="60" cy="-361.9047619047619" r="4" fill="#FFFF00"/>
-         <!--Poem number: 2. Dash Count: 21 CE % Reduction: 100 CE Dash Count: 0-->
-         <circle cx="75" cy="-400" r="4" fill="#0099CC"/>
-         <circle cx="85" cy="-400" r="4" fill="#D9007E"/>
+         <!--Poem number: 2. Dash Count: 22 CE % Reduction: 95.45454545454545 CE Dash Count: 1-->
+         <circle cx="75" cy="-381.8181818181818" r="4" fill="#0099CC"/>
+         <circle cx="85" cy="-381.8181818181818" r="4" fill="#D9007E"/>
          <circle cx="95" cy="-0" r="4" fill="#2200CC"/>
-         <circle cx="100" cy="-400" r="4" fill="#00CC00"/>
-         <!--Poem number: 3. Dash Count: 16 CE % Reduction: 100 CE Dash Count: 0-->
-         <circle cx="125" cy="-400" r="4" fill="#0099CC"/>
-         <circle cx="145" cy="-100" r="4" fill="#2200CC"/>
-         <circle cx="155" cy="-400" r="4" fill="#ACE500"/>
+         <circle cx="100" cy="-381.8181818181818" r="4" fill="#00CC00"/>
+         <!--Poem number: 3. Dash Count: 17 CE % Reduction: 94.11764705882352 CE Dash Count: 1-->
+         <circle cx="125" cy="-376.4705882352941" r="4" fill="#0099CC"/>
+         <circle cx="145" cy="-94.11764705882352" r="4" fill="#2200CC"/>
+         <circle cx="155" cy="-376.4705882352941" r="4" fill="#ACE500"/>
          <!--Poem number: 4. Dash Count: 5 CE % Reduction: 100 CE Dash Count: 0-->
          <circle cx="175" cy="-400" r="4" fill="#0099CC"/>
          <circle cx="195" cy="-80" r="4" fill="#2200CC"/>
          <circle cx="215" cy="-400" r="4" fill="#FF9900"/>
-         <!--Poem number: 5. Dash Count: 11 CE % Reduction: 100 CE Dash Count: 0-->
-         <circle cx="225" cy="-400" r="4" fill="#0099CC"/>
-         <circle cx="245" cy="-72.72727272727273" r="4" fill="#2200CC"/>
-         <circle cx="255" cy="-400" r="4" fill="#ACE500"/>
-         <!--Poem number: 6. Dash Count: 6 CE % Reduction: 100 CE Dash Count: 0-->
-         <circle cx="295" cy="-133.33333333333331" r="4" fill="#2200CC"/>
+         <!--Poem number: 5. Dash Count: 14 CE % Reduction: 78.57142857142857 CE Dash Count: 3-->
+         <circle cx="225" cy="-314.2857142857143" r="4" fill="#0099CC"/>
+         <circle cx="245" cy="-57.14285714285714" r="4" fill="#2200CC"/>
+         <circle cx="255" cy="-314.2857142857143" r="4" fill="#ACE500"/>
+         <!--Poem number: 6. Dash Count: 25 CE % Reduction: 24 CE Dash Count: 19-->
+         <circle cx="295" cy="-32" r="4" fill="#2200CC"/>
          <!--Poem number: 7. Dash Count: 3 CE % Reduction: 100 CE Dash Count: 0-->
          <circle cx="325" cy="-400" r="4" fill="#0099CC"/>
          <circle cx="345" cy="-0" r="4" fill="#2200CC"/>
@@ -159,9 +219,9 @@
          <circle cx="475" cy="-400" r="4" fill="#0099CC"/>
          <circle cx="495" cy="-160" r="4" fill="#2200CC"/>
          <circle cx="515" cy="-400" r="4" fill="#FF9900"/>
-         <!--Poem number: 11. Dash Count: 8 CE % Reduction: 75 CE Dash Count: 2-->
-         <circle cx="525" cy="-300" r="4" fill="#0099CC"/>
-         <circle cx="530" cy="--50" r="4" fill="#ec008c"/>
+         <!--Poem number: 11. Dash Count: 11 CE % Reduction: 54.54545454545454 CE Dash Count: 5-->
+         <circle cx="525" cy="-218.18181818181816" r="4" fill="#0099CC"/>
+         <circle cx="530" cy="--36.36363636363637" r="4" fill="#ec008c"/>
       </g>
    </g>
 </svg>
