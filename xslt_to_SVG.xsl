@@ -67,18 +67,44 @@
         -->        
               <xsl:for-each select="$DickinsonColl//TEI">
                   <xsl:variable name="poemNumber" select="number(substring-after(.//idno, '16'))"/>
-                  <xsl:variable name="dashContainers">
+                  
+                 <!--ebb: Here's one way to calculate the dashes, using analyze-string within an inner for-each loop.
+                 We need a for-each because we have to look inside each element that contains a dash (within each poem). Then
+                 we use analyze-string to isolate the dash characters, and output a letter "X" every time it finds one. As this variable loops through
+                 each text node, it accumulates a string of X characters for every dash it finds. In the variable following
+                 this one, $dashCount, we calculate the string-length of those X's.-->
+                  <xsl:variable name="dashX">
+                      <xsl:for-each select=".//body//*[text()[contains(., '&#8212;')]]">
+                          <xsl:analyze-string select="./text()[contains(., '&#8212;')]" regex="&#8212;">
+                       <xsl:matching-substring>
+                           <xsl:text>X</xsl:text>
+                       </xsl:matching-substring>        
+                      </xsl:analyze-string>
+                      </xsl:for-each>
+                  </xsl:variable>
+                  <xsl:variable name="dashCount">
+                      <xsl:value-of select="string-length($dashX)"/>
+                  </xsl:variable>
+                 
+                  <!--ebb: Here is an alternate way to count the dashes (commented out variables below). These variables 
+                      calculate the dash count thus:
+                      1) We first calculate the string-length of the node that contains one or more dashes, 
+                      2) Then we use translate() to remove the dashes out of the string, and
+                      3) Finally we subtract the shorter string-length (without dashes) from the first
+                      string-length. This approach yields the same values as the one I've activated above.
+                 <xsl:variable name="dashContainers">
                       <xsl:value-of select=".//body//*/text()[contains(., '&#8212;')]"/>
                   </xsl:variable>
-                  <!--ebb: This variable, $dashContainers, steps down from the body element in each file in the collection, and 
-                      holds the text nodes of any element that contain dash characters. -->
+                  <!-\-ebb: This variable, $dashContainers, steps down from the body element in each file in the collection, and 
+                      holds the text nodes of any element that contain dash characters. -\->
               <xsl:variable name="dashCount">
                   <xsl:value-of select="string-length($dashContainers) - string-length(translate($dashContainers, '&#8212;', ''))"/>
-                  </xsl:variable>
+                  </xsl:variable>-->
                
               <!--ebb: You'll maybe want to comment out this "Dash Count!" below or use it differently in an SVG element: I just wanted a 
-              readout of the dash count in the output code while checking! -->
-              <xsl:comment><xsl:text>Dash Count! </xsl:text><xsl:value-of select="$dashCount"/></xsl:comment> 
+              diagnostic reading of the dash count in the output code while checking! -->
+              <xsl:comment><xsl:text>Poem number: </xsl:text><xsl:value-of select="$poemNumber"/>
+                  <xsl:text>. Dash Count: </xsl:text><xsl:value-of select="$dashCount"/></xsl:comment> 
                         <circle cx="{$poemNumber*$x-interval}" cy="-{$dashCount*$y-interval}" r="4" stroke="black" stroke-width="3" fill="red" />
                             
              
