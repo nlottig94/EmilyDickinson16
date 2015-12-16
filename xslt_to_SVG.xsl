@@ -16,7 +16,7 @@
             <g transform="translate(100, 600)">
                 <g id="baseStuff">
                     <!-- title -->
-                    <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Changes in Published Versions Compared to Originals</text>
+                    <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Reduction in Published Versions Compared to Originals</text>
                     <!-- y-Axis -->
                     <line x1="0" x2="0" y1="0" y2="-450" stroke="black" stroke-width="1"/>
                     <!-- x-Axis -->
@@ -31,7 +31,7 @@
                     <text x="-25" y="-400" text-anchor="middle">100%</text>
                     <line x1="-10" x2="550" y1="-400" y2="-400" style="stroke: black; fill:none; stroke-width: 1px; stroke-dasharray: 10 5"/>
                     <!-- y-axis label -->
-                    <text x="210" y="-50" transform="rotate(-90)" text-anchor="middle" font-size="20px">Percentage of Usages</text>
+                    <text x="210" y="-50" transform="rotate(-90)" text-anchor="middle" font-size="20px">Percentage of Reduction</text>
                     <!-- x-axis marks -->
                     <text x="50" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
                     <line x1="50" x2="50" y1="10" y2="-10" stroke="black" stroke-width="1"/>
