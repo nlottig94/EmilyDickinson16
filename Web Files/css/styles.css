@@ -213,11 +213,12 @@ h2 {
     width: 720px;
     height: 100%;
     margin-left:10px;
+	overflow: display;
 }
 .svgHolder {
     float: left;
     width: 720px;
-    height: 1000px;
+    height: 800px;
     margin-left:10px;
     display: block;
 }
