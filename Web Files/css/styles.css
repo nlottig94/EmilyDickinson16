@@ -141,7 +141,7 @@ body {
 	width: 50%;
     height: 320px;
 	display: block;
-	overflow: display;
+	overflow: visible;
 	padding-bottom:30px;
 }
 .caption {
@@ -213,7 +213,7 @@ h2 {
     width: 720px;
     height: 100%;
     margin-left:10px;
-	overflow: display;
+	overflow: visible;
 }
 .svgHolder {
     float: left;
