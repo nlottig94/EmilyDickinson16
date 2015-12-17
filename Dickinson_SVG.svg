@@ -8,30 +8,36 @@
                y2="-450"
                stroke="#EEEEEE"
                stroke-width="50"/>
-         <line x1="-1"
-               x2="550"
+         <line x1="145"
+               x2="145"
                y1="0"
-               y2="0"
-               stroke="black"
-               stroke-width="1"/>
-         <line x1="-1"
-               x2="550"
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="50"/>
+         <line x1="245"
+               x2="245"
                y1="0"
-               y2="0"
-               stroke="black"
-               stroke-width="1"/>
-         <line x1="-1"
-               x2="550"
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="50"/>
+         <line x1="345"
+               x2="345"
                y1="0"
-               y2="0"
-               stroke="black"
-               stroke-width="1"/>
-         <line x1="-1"
-               x2="550"
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="50"/>
+         <line x1="445"
+               x2="445"
                y1="0"
-               y2="0"
-               stroke="black"
-               stroke-width="1"/>
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="50"/>
+         <line x1="535"
+               x2="535"
+               y1="0"
+               y2="-450"
+               stroke="#EEEEEE"
+               stroke-width="30"/>
          <text x="275" y="-525" text-anchor="middle" font-size="18px">Percentage of Dash Reduction in Published Versions Compared to Originals</text>
          <line x1="-1"
                x2="550"
@@ -74,141 +80,81 @@
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="50" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
-         <line x1="50"
-               x2="50"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="45" y="25" text-anchor="middle" font-size="10px">Poem 1</text>
          <line x1="70"
                x2="70"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="100" y="25" text-anchor="middle" font-size="10px">Poem 2</text>
-         <line x1="100"
-               x2="100"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="95" y="25" text-anchor="middle" font-size="10px">Poem 2</text>
          <line x1="120"
                x2="120"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="150" y="25" text-anchor="middle" font-size="10px">Poem 3</text>
-         <line x1="150"
-               x2="150"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="145" y="25" text-anchor="middle" font-size="10px">Poem 3</text>
          <line x1="170"
                x2="170"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="200" y="25" text-anchor="middle" font-size="10px">Poem 4</text>
-         <line x1="200"
-               x2="200"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="195" y="25" text-anchor="middle" font-size="10px">Poem 4</text>
          <line x1="220"
                x2="220"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="250" y="25" text-anchor="middle" font-size="10px">Poem 5</text>
-         <line x1="250"
-               x2="250"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="245" y="25" text-anchor="middle" font-size="10px">Poem 5</text>
          <line x1="270"
                x2="270"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="300" y="25" text-anchor="middle" font-size="10px">Poem 6</text>
-         <line x1="300"
-               x2="300"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="295" y="25" text-anchor="middle" font-size="10px">Poem 6</text>
          <line x1="320"
                x2="320"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="350" y="25" text-anchor="middle" font-size="10px">Poem 7</text>
-         <line x1="350"
-               x2="350"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="345" y="25" text-anchor="middle" font-size="10px">Poem 7</text>
          <line x1="370"
                x2="370"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="400" y="25" text-anchor="middle" font-size="10px">Poem 8</text>
-         <line x1="400"
-               x2="400"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="395" y="25" text-anchor="middle" font-size="10px">Poem 8</text>
          <line x1="420"
                x2="420"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="450" y="25" text-anchor="middle" font-size="10px">Poem 9</text>
-         <line x1="450"
-               x2="450"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="445" y="25" text-anchor="middle" font-size="10px">Poem 9</text>
          <line x1="470"
                x2="470"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="500" y="25" text-anchor="middle" font-size="10px">Poem 10</text>
-         <line x1="500"
-               x2="500"
-               y1="10"
-               y2="-10"
-               stroke="black"
-               stroke-width="1"/>
+         <text x="495" y="25" text-anchor="middle" font-size="10px">Poem 10</text>
          <line x1="520"
                x2="520"
                y1="10"
                y2="-450"
                stroke="black"
                stroke-width="1"/>
-         <text x="550" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
+         <text x="545" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
          <line x1="550"
                x2="550"
                y1="10"
-               y2="-10"
+               y2="-450"
                stroke="black"
                stroke-width="1"/>
       </g>
