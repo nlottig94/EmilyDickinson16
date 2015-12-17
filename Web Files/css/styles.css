@@ -132,6 +132,22 @@ body {
 	display: block;
 	padding-bottom:30px;
 }
+.homeImgCont {
+    width: 100%;
+    height: 100%;
+}
+.homeCol {
+	float:left;
+	width: 50%;
+    height: 320px;
+	display: block;
+	overflow: display;
+	padding-bottom:30px;
+}
+.caption {
+	font-size: 12px;
+	font-style: italic;
+}
 .cclic {
     float:right;
     padding: 50px 30px;
