@@ -63,6 +63,27 @@
                     <text x="545" y="25" text-anchor="middle" font-size="10px">Poem 11</text>
                     <line x1="550" x2="550" y1="10" y2="-450" stroke="black" stroke-width="1"/>
                 </g>
+                <g id="legend">
+                    <circle cx="50" cy="-487" r="20" fill="#0099CC" />
+                    <text x="50" y="-485" text-anchor="middle" font-size="10px">CE</text>
+                    <circle cx="110" cy="-487" r="20" fill="#ec008c" />
+                    <text x="110" y="-485" text-anchor="middle" font-size="10px">LSD</text>
+                    <circle cx="170" cy="-487" r="20" fill="#D9007E" />
+                    <text x="170" y="-485" text-anchor="middle" font-size="10px">AM</text>
+                    <circle cx="230" cy="-487" r="20" fill="#8800CC" />
+                    <text x="230" y="-485" text-anchor="middle" font-size="10px">BM</text>
+                    <circle cx="290" cy="-487" r="20" fill="#2200CC" />
+                    <text x="290" y="-485" text-anchor="middle" font-size="10px">FH</text>
+                    <circle cx="350" cy="-487" r="20" fill="#00CC00" />
+                    <text x="350" y="-485" text-anchor="middle" font-size="10px">FP</text>
+                    <circle cx="410" cy="-487" r="20" fill="#ACE500" />
+                    <text x="410" y="-485" text-anchor="middle" font-size="10px">POEMS3</text>
+                    <circle cx="470" cy="-487" r="20" fill="#FFFF00" />
+                    <text x="470" y="-485" text-anchor="middle" font-size="10px">POEMS2</text>
+                    <circle cx="530" cy="-487" r="20" fill="#FF9900" />
+                    <text x="530" y="-485" text-anchor="middle" font-size="10px">POEMS1</text>
+                    
+                </g>
                 <g id="dots">
         <!--ebb: This seems to be working now. Compare the output values with what you can see in the poems' XML to
         double check! NOTE TO TEAM: I've set circles on your graph, and they look pretty but they are meaningless in relation to your
