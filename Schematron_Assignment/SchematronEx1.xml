@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="SchematronEx1_RNG.rnc" type="application/relax-ng-compact-syntax"?>
+<results>
+    <place name="NYC">24</place>
+    <place name="Mexico">34</place>
+    <place name="London">12</place>
+    <place name="Rome">30</place>
+</results>
+
+<!--
+<results>
+    <place name="NYC">27</place>
+    <place name="Mexico">39</place>
+    <place name="London">15</place>
+    <place name="Rome">12</place>
+</results>
+
+-->
