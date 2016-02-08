@@ -101,14 +101,13 @@
                <rdg wit="#ce">horses</rdg>
                <rdg wit="#poems3">horses</rdg>
             </app>&#8212;</l>
-            <l><app><rdg wit="#df16 #fh">Rapid! That will do!</rdg>
-            <rdg wit="#ce #poems3">Rapid! That will do!</rdg></app></l>
+            <l>Rapid! That will do!</l>
          </lg>
          <lg>
             <l>Put me <app><rdg wit="#df16 #fh #poems3">in</rdg></app> on the <app>
-                  <rdg wit="var0 #fh #ce #poems3">firmest </rdg>
-                  <rdg wit="var1">tightest </rdg>
-                  <rdg wit="var2">highest&#8212;</rdg>
+                  <rdg wit="var0 #fh #ce #poems3 #df16">firmest </rdg>
+                  <rdg wit="var1 #df16">tightest </rdg>
+                  <rdg wit="var2 #df16">highest&#8212;</rdg>
                </app> <app>
                   <rdg wit="#df16 #fh">side&#8212;</rdg>
                   <rdg wit="#poems3 #ce">side,</rdg></app></l>
@@ -119,8 +118,8 @@
                <rdg wit="#ce #poems3">,</rdg></app></l>
             <l>
                <app>
-                  <rdg wit="var0 #fh">And it's partly, down Hill&#8212;</rdg>
-                  <rdg wit="var1">And it's many a mile&#8212;the Hills&#8212;</rdg>
+                  <rdg wit="var0 #fh #df16">And it's partly, down Hill&#8212;</rdg>
+                  <rdg wit="var1 #df16">And it's many a mile&#8212;the Hills&#8212;</rdg>
                   <rdg wit="#ce #poems3">And it's partly down hill.</rdg>
                </app>
             </l>
@@ -129,8 +128,8 @@
             <l>But <app>
                <rdg wit="#df16">never I</rdg>
                <rdg wit="#ce #fh #poems3">never I</rdg></app> mind the <app>
-                  <rdg wit="var0">steepest</rdg>
-                  <rdg wit="var1">Bridges</rdg>
+                  <rdg wit="var0 #df16">steepest</rdg>
+                  <rdg wit="var1 #df16">Bridges</rdg>
                <rdg wit="#fh">steepest&#8212;</rdg>
                   <rdg wit="#ce #poems3">bridges,</rdg>
                </app>
@@ -163,13 +162,13 @@
             </app></l>
             <!--asm 2015-12-13:  Interpreted transcriptions to include line previously left out-->
             <l> <app>
-                  <rdg wit="var0 #fh">Then&#8212;</rdg>
-                  <rdg wit="var1 #ce #poems3">Now</rdg>
+                  <rdg wit="var0 #fh #df16">Then&#8212;</rdg>
+                  <rdg wit="var1 #ce #poems3 #df16">Now</rdg>
                </app> I am ready to go!</l>
             <l><app>
-               <rdg wit ="var0">And it's many a mile&#8212;the Hills</rdg>
-               <rdg wit ="var1">And it's many a mile&#8212;Bridges</rdg>
-               <rdg wit ="var2">Here's a keepsake for the Hills</rdg>
+               <rdg wit ="var0 #df16">And it's many a mile&#8212;the Hills</rdg>
+               <rdg wit ="var1 #df16">And it's many a mile&#8212;Bridges</rdg>
+               <rdg wit ="var2 #df16">Here's a keepsake for the Hills</rdg>
             </app></l>
          </lg>
       </body>

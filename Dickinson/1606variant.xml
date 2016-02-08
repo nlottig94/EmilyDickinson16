@@ -63,15 +63,15 @@
             <l>'Tis so appalling&#8212;it exhilarates&#8212;</l>
             <l>So over Horror,
                <app>
-                  <rdg wit="var0 #fh">it half Captivates&#8212;</rdg>
-                  <rdg wit="var1">it dumb fascinates&#8212;</rdg>
+                  <rdg wit="var0 #fh #df16">it half Captivates&#8212;</rdg>
+                  <rdg wit="var1 #df16">it dumb fascinates&#8212;</rdg>
                </app>
             </l>
             <l>The Soul stares after it, secure&#8212;</l>
             <l>
                <app>
-                  <rdg wit="var0">To know the worst, leaves no dread more&#8212;</rdg>
-                  <rdg wit="var1 #fh">A Sepulchre, fears frost, no more&#8212;</rdg>
+                  <rdg wit="var0 #df16">To know the worst, leaves no dread more&#8212;</rdg>
+                  <rdg wit="var1 #fh #df16">A Sepulchre, fears frost, no more&#8212;</rdg>
                </app>
             </l>
          </lg>

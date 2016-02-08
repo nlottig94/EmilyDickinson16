@@ -162,14 +162,14 @@
             <l>And then a Plank in Reason, broke, </l>
             <l>And I dropped down, and down&#8212;</l>
             <l>And hit a World, at every <app>
-                  <rdg wit="var0 #fh">plunge,</rdg>
-                  <rdg wit="var1">Crash&#8212;</rdg>
+                  <rdg wit="var0 #fh #df16">plunge,</rdg>
+                  <rdg wit="var1 #df16">Crash&#8212;</rdg>
                </app>
             </l>
             <l>And
                <app>
-                  <rdg wit="var0 #fh">Finished </rdg>
-                  <rdg wit="var1">Got through&#8212;</rdg>
+                  <rdg wit="var0 #fh #df16">Finished </rdg>
+                  <rdg wit="var1 #df16">Got through&#8212;</rdg>
                </app>knowing&#8212;then&#8212;</l>
          </lg>
       </body>

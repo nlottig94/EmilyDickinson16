@@ -118,9 +118,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </lg>
          <lg>
             <l>Why didn't we <app>
-                  <rdg wit="var0 #fh">detain Them?</rdg>
-                  <rdg wit="var1">retain Them?</rdg>
-                  <rdg wit="var2">detain it?</rdg>
+                  <rdg wit="var0 #fh #df16">detain Them?</rdg>
+                  <rdg wit="var1 #df16">retain Them?</rdg>
+                  <rdg wit="var2 #df16">detain it?</rdg>
                   <rdg wit="#fp #ce">detain them?</rdg>
                </app>
             </l>
@@ -137,8 +137,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <rdg wit="#fp">Heads,</rdg>
             </app></l>
             <l><app>
-                  <rdg wit="var0 #fh">Without a syllable&#8212;</rdg>
-                  <rdg wit="var1 #fp #ce">But deign no syllable.</rdg>
+                  <rdg wit="var0 #fh #df16">Without a syllable&#8212;</rdg>
+                  <rdg wit="var1 #fp #ce #df16">But deign no syllable.</rdg>
                </app>
             </l>
          </lg>

@@ -111,14 +111,14 @@
             </app></l>
             <l>That comprehendeth me</l>
             <l>In one or <app>
-                  <rdg wit="var0 #fh">two existences&#8212;</rdg>
-                  <rdg wit="var1">more&#8212;existences</rdg>
+                  <rdg wit="var0 #fh #df16">two existences&#8212;</rdg>
+                  <rdg wit="var1 #df16">more&#8212;existences</rdg>
                   <rdg wit="#poems1 #ce">more existences</rdg>
                </app>
             </l>
             <l><app>
-                  <rdg wit="var0">Just as the case may be&#8212;</rdg>
-                  <rdg wit="var1 #fh">As Deity decree&#8212;</rdg>
+                  <rdg wit="var0 #df16">Just as the case may be&#8212;</rdg>
+                  <rdg wit="var1 #fh #df16">As Deity decree&#8212;</rdg>
                   <rdg wit="#poems1 #ce">At Deity's decree.</rdg>
                </app>
             </l>

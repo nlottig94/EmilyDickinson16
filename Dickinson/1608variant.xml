@@ -91,8 +91,8 @@
                <rdg wit="#bm">sound ones like the hills</rdg>
             </app>
                <app>
-                  <rdg wit="var0">&#8212;shall stand&#8212;</rdg>
-                  <rdg wit="var1">&#8212;stand up&#8212;</rdg>
+                  <rdg wit="var0 #df16">&#8212;shall stand&#8212;</rdg>
+                  <rdg wit="var1 #df16">&#8212;stand up&#8212;</rdg>
                   <rdg wit="#bm">shall stand</rdg>
                </app>
             </l>
@@ -101,8 +101,8 @@
                <rdg wit="#bm">lightning </rdg>
             </app>
                <app>
-                  <rdg wit="var0">scares away&#8212;</rdg>
-                  <rdg wit="var1">drives away&#8212;</rdg>
+                  <rdg wit="var0 #df16">scares away&#8212;</rdg>
+                  <rdg wit="var1 #df16">drives away&#8212;</rdg>
                   <rdg wit="#bm">drives away.</rdg>
                </app>
             </l>
@@ -114,9 +114,9 @@
             </app></l>
             <l>They bear their</l>
             <l><app>
-                  <rdg wit="var0">dauntless Heads,</rdg>
-                  <rdg wit="var1">fearless&#8212;Heads,</rdg>
-                  <rdg wit="var2">tranquil&#8212;Heads,</rdg>
+                  <rdg wit="var0 #df16">dauntless Heads,</rdg>
+                  <rdg wit="var1 #df16">fearless&#8212;Heads,</rdg>
+                  <rdg wit="var2 #df16">tranquil&#8212;Heads,</rdg>
                   <rdg wit="#bm">tranquil heads</rdg>
                </app>
             </l>
@@ -125,8 +125,8 @@
                <rdg wit="#bm">others dare not </rdg>
             </app>
                <app>
-                  <rdg wit="var0 #bm">go at Noon,</rdg>
-                  <rdg wit="var1">walk at noon,</rdg>
+                  <rdg wit="var0 #bm #df16">go at Noon,</rdg>
+                  <rdg wit="var1 #df16">walk at noon,</rdg>
                   <rdg wit="#bm">go at noon,</rdg>
                </app>
             </l>
@@ -149,8 +149,8 @@
                <rdg wit="#bm">And suns go surer for their proof,</rdg>
             </app></l>
             <l>As if <app>
-                  <rdg wit="var0">An Axle, held&#8212;</rdg>
-                  <rdg wit="var1">A Muscle&#8212;held</rdg>
+                  <rdg wit="var0 #df16">An Axle, held&#8212;</rdg>
+                  <rdg wit="var1 #df16">A Muscle&#8212;held</rdg>
                   <rdg wit="#bm">an axle held.</rdg>
                </app>
             </l>
