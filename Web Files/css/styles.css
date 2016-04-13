@@ -453,7 +453,7 @@ button {
     box-shadow: inset 0 0 10px rgba(0,0,0,.3);
 }
 .amKey {
-    background-color: #D9007E;
+    background-color: #ff4dff;
 }
 .amKey:hover, .amKeyON {
     background-color: #AA0063;
