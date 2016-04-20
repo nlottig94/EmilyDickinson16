@@ -208,6 +208,15 @@ h2 {
     border-bottom: 1px dashed #AAAAAA;
     
 }
+
+
+/*q{
+    quotes:'&#8220;' '&#8221;' '&#8216;' '&#8217;';
+}*/
+q.single {quotes:'‘' '’'; 
+}
+q.double {quotes:'“' '”'; 
+}
 .copy {
     float: left;
     width: 720px;
@@ -273,6 +282,11 @@ h2 {
     background-color: #FF0000;
     color: #FFFFFF;
 }
+.df6 {
+    display: inline;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
 .poems1 {
     display: none;
     background-color: #FF9900;
@@ -311,7 +325,22 @@ h2 {
     display: none;
     background-color: #EC008C;
 }
+.LETTER {
+    display: none;
+    background-color: #008080;
+}
+.D {
+    display: none;
+    background-color: #006622;
+}
+.CP {
+    display: none;
+    background-color: #e64d00;
+}
 #df16Map {
+    display: block;
+}
+#df6Map {
     display: block;
 }
 #poems1Map {
@@ -339,6 +368,15 @@ h2 {
     display: none;
 }
 #lSDMap {
+    display: none;
+}
+#LETTERMap {
+    display: none;
+}
+#DMap {
+    display: none;
+}
+#CPMap {
     display: none;
 }
 .strikethrough {
@@ -381,6 +419,18 @@ button {
     box-shadow: inset 0 0 10px rgba(0,0,0,.3);
 }
 .df16Key:hover, .df16KeyON {
+    background-color: #FF0000;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 0 rgba(0,0,0,.3);
+}
+.df6Key {
+    background-color: #C80000;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.df6Key:hover, .df6KeyON {
     background-color: #FF0000;
     -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
     -moz-box-shadow: inset 0 0 0 rgba(0,0,0,.3); 
@@ -466,6 +516,33 @@ button {
 }
 .lSDKey:hover, .lSDKeyON {
     background-color: #B20069;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.LETTERKey {
+    background-color: #008080;
+}
+.LETTERKey:hover, .LETTERKeyON {
+    background-color: #004d4d;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.DKey {
+    background-color: #006622;
+}
+.DKey:hover, .DKeyON {
+    background-color: #004d1a;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+.CPKey {
+    background-color: #e64d00;
+}
+.CPKey:hover, .CPKeyON {
+    background-color: #b33c00;
     -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
     -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.3); 
     box-shadow: inset 0 0 10px rgba(0,0,0,.3);
