@@ -36,7 +36,10 @@
                         <div class="menu">
                             <ul class="cfix">
                                 <li>
-                                    <a href="../index.html">Home</a>
+                                    <a href="../index.html">Home</a><ul class="sub">
+                                        <li><a href="../6/6home.html">Dickinson 6</a></li>
+                                        <li><a href="16home.html">Dickinson 16</a></li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="../about.html">About <span class="arrow">▼</span></a>
