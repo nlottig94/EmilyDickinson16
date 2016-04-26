@@ -1,14 +1,18 @@
-var df16Items = document.getElementsByClassName("df16");
-var varItems = document.getElementsByClassName("var");
-var poems1Items = document.getElementsByClassName("poems1");
-var poems2Items = document.getElementsByClassName("poems2");
-var poems3Items = document.getElementsByClassName("poems3");
-var fpItems = document.getElementsByClassName("fp");
-var ceItems = document.getElementsByClassName("ce");
-var fhItems = document.getElementsByClassName("fh");
-var bmItems = document.getElementsByClassName("bm");
-var amItems = document.getElementsByClassName("am");
-var lSDItems = document.getElementsByClassName("lsd");
+var df16Items = document.getElementsByClassName("df16Toggle");
+var df6Items = document.getElementsByClassName("df6Toggle");
+var varItems = document.getElementsByClassName("varToggle");
+var poems1Items = document.getElementsByClassName("poems1Toggle");
+var poems2Items = document.getElementsByClassName("poems2Toggle");
+var poems3Items = document.getElementsByClassName("poems3Toggle");
+var fpItems = document.getElementsByClassName("fpToggle");
+var ceItems = document.getElementsByClassName("ceToggle");
+var fhItems = document.getElementsByClassName("fhToggle");
+var bmItems = document.getElementsByClassName("bmToggle");
+var amItems = document.getElementsByClassName("amToggle");
+var lSDItems = document.getElementsByClassName("lSDToggle");
+var LETTERItems = document.getElementsByClassName("LETTERToggle");
+var DItems = document.getElementsByClassName("DToggle");
+var CPItems = document.getElementsByClassName("CPToggle");
 var imgModal = document.getElementById("imgModal");
 
 window.addEventListener('DOMContentLoaded',buttons,false);
@@ -17,6 +21,10 @@ function buttons() {
     if (document.getElementById("df16Button") != null){
         var df16Button = document.getElementById("df16Button");
         df16Button.onclick = df16Function;
+    }
+    if (document.getElementById("df6Button") != null){
+        var df6Button = document.getElementById("df6Button");
+        df6Button.onclick = df6Function;
     }
     if (document.getElementById("poems1Button") != null){
         var poems1Button = document.getElementById("poems1Button");
@@ -54,6 +62,18 @@ function buttons() {
         var lSDButton = document.getElementById("lSDButton");
         lSDButton.onclick = lSDFunction;
     }
+    if (document.getElementById("LETTERButton") != null){
+        var LETTERButton = document.getElementById("LETTERButton");
+        LETTERButton.onclick = LETTERFunction;
+    }
+    if (document.getElementById("DButton") != null){
+        var DButton = document.getElementById("DButton");
+        DButton.onclick = DFunction;
+    }
+    if (document.getElementById("CPButton") != null){
+        var CPButton = document.getElementById("CPButton");
+        CPButton.onclick = CPFunction;
+    }
     if (document.getElementById("origImg") != null){
         var modalBtn = document.getElementById("origImg");
         modalBtn.onclick = openFunc;
@@ -64,7 +84,7 @@ function buttons() {
     }
 }
 
-/*FASCICLE FUNCTION*/
+/*FASCICLE 16 FUNCTION*/
 
 function df16Function() {
     var df16Button = document.getElementById("df16Button");
@@ -92,6 +112,37 @@ function df16Function() {
        }
     else {
         df16img.style.display = "block";
+    }
+}
+
+/*FASCICLE 6 FUNCTION*/
+
+function df6Function() {
+    var df6Button = document.getElementById("df6Button");
+    for (var i = 0; i < df6Items.length; i++) {
+       if (df6Items[i].style.display != "none") {
+       df6Items[i].style.display = "none";
+       df6Button.className += " df6KeyON";
+	   }
+	   else {
+	   df6Items[i].style.display = "inline";
+	   df6Button.className = df6Button.className.replace( /(?:^|\s)df6KeyON(?!\S)/g , '' );
+	   }
+    }
+    for (var j = 0; j < varItems.length; j++) {
+       if (varItems[j].style.display != "none") {
+       varItems[j].style.display = "none";
+	   }
+	   else {
+	   varItems[j].style.display = "inline";
+	   }
+    }
+    var df6img = document.getElementById("df6Map");
+    if (df6img.style.display != "none") {
+       df6img.style.display = "none";
+       }
+    else {
+        df6img.style.display = "block";
     }
 }
 
@@ -299,6 +350,75 @@ function lSDFunction() {
        }
     else {
         lsdimg.style.display = "none";
+    }
+}
+
+/*LETTER FROM EMILY DICKINSON FUNCTION*/
+
+function LETTERFunction() {
+    var LETTERButton = document.getElementById("LETTERButton");
+    for (var i = 0; i < LETTERItems.length; i++) {
+       if (LETTERItems[i].style.display != "inline") {
+       LETTERItems[i].style.display = "inline";
+       LETTERButton.className += " LETTERKeyON"
+	   }
+	   else {
+	   LETTERItems[i].style.display = "none";
+	   LETTERButton.className = LETTERButton.className.replace( /(?:^|\s)LETTERKeyON(?!\S)/g , '' )
+	   }
+   }
+   var LETTERimg = document.getElementById("LETTERMap");
+    if (LETTERimg.style.display != "block") {
+       LETTERimg.style.display = "block";
+       }
+    else {
+        LETTERimg.style.display = "none";
+    }
+}
+
+/*DICKINSON FUNCTION*/
+
+function DFunction() {
+    var DButton = document.getElementById("DButton");
+    for (var i = 0; i < DItems.length; i++) {
+       if (DItems[i].style.display != "inline") {
+       DItems[i].style.display = "inline";
+       DButton.className += " DKeyON"
+	   }
+	   else {
+	   DItems[i].style.display = "none";
+	   DButton.className = DButton.className.replace( /(?:^|\s)DKeyON(?!\S)/g , '' )
+	   }
+   }
+   var Dimg = document.getElementById("DMap");
+    if (Dimg.style.display != "block") {
+       Dimg.style.display = "block";
+       }
+    else {
+        Dimg.style.display = "none";
+    }
+}
+
+/*COMPLETE POEMS FUNCTION*/
+
+function CPFunction() {
+    var CPButton = document.getElementById("CPButton");
+    for (var i = 0; i < CPItems.length; i++) {
+       if (CPItems[i].style.display != "inline") {
+       CPItems[i].style.display = "inline";
+       CPButton.className += " CPKeyON"
+	   }
+	   else {
+	   CPItems[i].style.display = "none";
+	   CPButton.className = CPButton.className.replace( /(?:^|\s)CPKeyON(?!\S)/g , '' )
+	   }
+   }
+   var CPimg = document.getElementById("CPMap");
+    if (CPimg.style.display != "block") {
+       CPimg.style.display = "block";
+       }
+    else {
+        CPimg.style.display = "none";
     }
 }
 
