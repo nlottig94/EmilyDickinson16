@@ -50,6 +50,9 @@
                                         <li>
                                             <a href="../methodology.html">Methodology</a>
                                         </li>
+                                        <li>
+                                            <a href="../bibliography.html">Bibliography</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
@@ -231,6 +234,19 @@
 
             </body>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="del[@rend]">
+        <xsl:choose>
+            <xsl:when test="@rend = 'strikethrough'">
+                <span class="strikeThrough">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                    <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="q[@rend]">
