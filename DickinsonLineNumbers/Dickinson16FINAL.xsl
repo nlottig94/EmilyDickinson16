@@ -333,9 +333,9 @@
         
         <tr class="{$wit}Toggle"><xsl:for-each select="node()">
                         <xsl:choose>
-                            <xsl:when test="current()">
+                            <xsl:when test="current()/rdg[contains(@wit, $wit)]">
                 <td class="{$wit}">
-                    <xsl:apply-templates select=".[rdg[not(contains(@wit, 'df16'))]]"/>
+                    <xsl:apply-templates select="."/>
                     <xsl:if test="current()/rdg[contains(@wit, 'var0')]">
                         <span class="var">VAR 1: </span><xsl:apply-templates select="current()/rdg[contains(@wit, 'var0')]"/>
                     </xsl:if>
@@ -346,18 +346,7 @@
                         <span class="var">VAR 3: </span><xsl:apply-templates select="current()/rdg[contains(@wit, 'var2')]"/>
                     </xsl:if>
                 </td></xsl:when>
-                            <!--<xsl:when test="current()/rdg[contains(@wit, $wit ! 'df16')]">
-                                <xsl:apply-templates select="."/>
-                                <xsl:if test="current()/rdg[contains(@wit, 'var0')]">
-                                    <span class="var">VAR 1: </span><xsl:apply-templates select="//rdg[contains(@wit, 'var0')]"/>
-                                </xsl:if>
-                                <xsl:if test="current()/rdg[contains(@wit, 'var1')]">
-                                    <span class="var">VAR 2: </span><xsl:apply-templates select="//rdg[contains(@wit, 'var1')]"/>
-                                </xsl:if>
-                                <xsl:if test="current()/rdg[contains(@wit, 'var2'), contains(@wit, 'df16')]">
-                                    <span class="var">VAR 3: </span><xsl:apply-templates select="//rdg[contains(@wit, 'var2')]"/>
-                                </xsl:if>
-                            </xsl:when>-->
+            
             <xsl:otherwise>
                 <td class="{$wit}text">
                     <xsl:apply-templates select="."/>
@@ -371,16 +360,4 @@
         <xsl:param name="wit" tunnel="yes"/>
         <xsl:apply-templates select="rdg[contains(@wit, $wit)]"/>
     </xsl:template>
-    <!--<xsl:template match="">
-        <!-\-<xsl:param name="wit" tunnel="yes"/>-\->
-        <xsl:if test="current()/rdg[contains(@wit, 'var0 #df16')]">
-            <span class="var">VAR 1: </span><xsl:apply-templates select="."/>
-        </xsl:if>
-        <xsl:if test="current()/rdg[contains(@wit, 'var1 #df16')]">
-            <span class="var">VAR 2: </span><xsl:apply-templates select="."/>
-        </xsl:if>
-        <xsl:if test="current()/rdg[contains(@wit, 'var2 #df16')]">
-            <span class="var">VAR 3: </span><xsl:apply-templates select="."/>
-        </xsl:if>
-    </xsl:template>-->
 </xsl:stylesheet>
