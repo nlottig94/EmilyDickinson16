@@ -7,8 +7,9 @@
 
     <xsl:output method="xhtml" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    <xsl:variable name="witness"
-        select="//front/descendant::witness/@xml:id"/>
+    <xsl:variable name="witness" select="//front/descendant::witness/@xml:id" as="xs:string+"/>
+    <!--ebb and djb: Witness is anything with a hash that is not df16-->
+  
     <xsl:template match="/">
         <html>
             <head>
@@ -36,9 +37,14 @@
                         <div class="menu">
                             <ul class="cfix">
                                 <li>
-                                    <a href="../index.html">Home <span class="arrow">▼</span></a><ul class="sub">
-                                        <li><a href="../6/6home.html">Dickinson 6</a></li>
-                                        <li><a href="16home.html">Dickinson 16</a></li>
+                                    <a href="../index.html">Home <span class="arrow">▼</span></a>
+                                    <ul class="sub">
+                                        <li>
+                                            <a href="../6/6home.html">Dickinson 6</a>
+                                        </li>
+                                        <li>
+                                            <a href="16home.html">Dickinson 16</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
@@ -142,11 +148,16 @@
                             <xsl:if test="//front//witness[@xml:id/contains(., 'lSD')]">
                                 <button class="lSDKey" id="lSDButton">Susan Dickinson</button>
                             </xsl:if>
-                            <a class="origXML" id="origXML" href="{//listRef/ptr/@target[contains(., 'xml')]}">View Original XML</a>
-                            <button class="origImg" id="origImg">View Original Variant Images</button>
-                            <p class="instruct"><strong>Instructions:</strong> You can turn the variations of the poem on and off at the same time. The button will
-                                show as depressed, and the poems will load side by side. The images for the corresponding poem will stack on top of each other
-                                if multiple variants are turned on at once.</p>
+                            <a class="origXML" id="origXML"
+                                href="{//listRef/ptr/@target[contains(., 'xml')]}">View Original
+                                XML</a>
+                            <button class="origImg" id="origImg">View Original Variant
+                                Images</button>
+                            <p class="instruct"><strong>Instructions:</strong> You can turn the
+                                variations of the poem on and off at the same time. The button will
+                                show as depressed, and the poems will load side by side. The images
+                                for the corresponding poem will stack on top of each other if
+                                multiple variants are turned on at once.</p>
 
                         </div>
                         <div class="poem">
@@ -170,16 +181,20 @@
                                         </a>
                                         <!-- Tests for existance of variant image files in the listRef element of each poem's XML-->
                                         <xsl:choose>
-                                            <xsl:when test=".[contains(., 'fs') and not(contains(., 'a.') or contains(., 'b.') or contains(., 'c.'))]">
+                                            <xsl:when
+                                                test=".[contains(., 'fs') and not(contains(., 'a.') or contains(., 'b.') or contains(., 'c.'))]">
                                                 <div class="modalDesc">Fascicle 16</div>
                                             </xsl:when>
-                                            <xsl:when test=".[contains(., 'fs') and contains(., 'a.')]">
+                                            <xsl:when
+                                                test=".[contains(., 'fs') and contains(., 'a.')]">
                                                 <div class="modalDesc">Fascicle 16 'A'</div>
                                             </xsl:when>
-                                            <xsl:when test=".[contains(., 'fs') and contains(., 'b.')]">
+                                            <xsl:when
+                                                test=".[contains(., 'fs') and contains(., 'b.')]">
                                                 <div class="modalDesc">Fascicle 16 'B'</div>
                                             </xsl:when>
-                                            <xsl:when test=".[contains(., 'fs') and contains(., 'c.')]">
+                                            <xsl:when
+                                                test=".[contains(., 'fs') and contains(., 'c.')]">
                                                 <div class="modalDesc">Fascicle 16 'C'</div>
                                             </xsl:when>
                                             <xsl:when test=".[contains(., 'poems1.')]">
@@ -219,10 +234,12 @@
                                                 <div class="modalDesc">Atlantic Monthly</div>
                                             </xsl:when>
                                             <xsl:when test=".[contains(., 'lSDa.')]">
-                                                <div class="modalDesc">Susan Dickinson Letter 'A'</div>
+                                                <div class="modalDesc">Susan Dickinson Letter
+                                                  'A'</div>
                                             </xsl:when>
                                             <xsl:when test=".[contains(., 'lSDb.')]">
-                                                <div class="modalDesc">Susan Dickinson Letter 'B'</div>
+                                                <div class="modalDesc">Susan Dickinson Letter
+                                                  'B'</div>
                                             </xsl:when>
                                         </xsl:choose>
                                     </div>
@@ -235,7 +252,7 @@
             </body>
         </html>
     </xsl:template>
-    
+
     <xsl:template match="del[@rend]">
         <xsl:choose>
             <xsl:when test="@rend = 'strikethrough'">
@@ -244,7 +261,7 @@
                 </span>
             </xsl:when>
             <xsl:otherwise>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -295,69 +312,106 @@
 
     <xsl:template match="l">
         <div class="line">
-            <span class="lineNum"><xsl:value-of select="count(preceding::l) + 1"/><xsl:text>: </xsl:text></span>
+            <span class="lineNum">
+                <xsl:value-of select="count(preceding::l) + 1"/>
+                <xsl:text>: </xsl:text>
+            </span>
             <div class="lineContent">
-        <xsl:variable name="current" select="current()"/>
+                <xsl:variable name="currentLine" select="current()"/>
                 <!--<xsl:sequence select="current()"/>
         </xsl:variable> -->
-       <!--2016-04-20 ebb: It doesn't seem to be necessary to declare this variable a sequence because of course current() is going to be a new
+                <!--2016-04-20 ebb: It doesn't seem to be necessary to declare this variable a sequence because of course current() is going to be a new
            value each time the template match on `<l>` fires.-->
-         
-                <xsl:choose>
-                    <xsl:when test="$witness">
-                        <xsl:for-each select="$witness"><table>
-                    <!-- ebb: removed @class="current()" from table element to output variants only inside cells.-->
-           
-                   <!--<xsl:value-of select="current()"/>-->                 
-                    <xsl:apply-templates select="$current" mode="row">
-                        <xsl:with-param name="wit" select="current()" as="xs:string" tunnel="yes"/>
-                    </xsl:apply-templates>
-                </table>
-            </xsl:for-each>
-                    </xsl:when>
-                    <!--<xsl:when test="l//@wit[contains(., 'var')]">
-                        <xsl:for-each select="l//@wit[contains(., 'var')]">
+
+             
+                        <xsl:for-each select="$witness">
                             <table>
-                                <xsl:apply-templates select="$current" mode="row">
-                                    <xsl:with-param name="wit" select="current()" as="xs:string" tunnel="yes"/>
-                                </xsl:apply-templates>
+                                <!-- ebb: removed @class="current()" from table element to output variants only inside cells.-->
+
+                                <!--<xsl:value-of select="current()"/>-->
+                             <xsl:choose>   
+                                 <xsl:when test="current() = 'df16'">
+                                     <xsl:apply-templates select="$currentLine" mode="row_df16"/>
+                                </xsl:when>
+                                 <xsl:otherwise>
+                                     <xsl:apply-templates select="$currentLine" mode="row">
+                                         <xsl:with-param name="wit" select="current()" as="xs:string"
+                                             tunnel="yes"/>
+                                     </xsl:apply-templates>
+                                 </xsl:otherwise>
+                             </xsl:choose>
                             </table>
                         </xsl:for-each>
-                    </xsl:when>-->
-                </xsl:choose>
             </div>
         </div>
     </xsl:template>
     <xsl:template match="l" mode="row">
         <xsl:param name="wit" tunnel="yes"/>
-        
-        <tr class="{$wit}Toggle"><xsl:for-each select="node()">
-                        <xsl:choose>
-                            <xsl:when test="current()/rdg[contains(@wit, $wit)]">
-                <td class="{$wit}">
-                    <xsl:apply-templates select="."/>
-                    <xsl:if test="current()/rdg[contains(@wit, 'var0')]">
-                        <span class="var">VAR 1: </span><xsl:apply-templates select="current()/rdg[contains(@wit, 'var0')]"/>
-                    </xsl:if>
-                    <xsl:if test="current()/rdg[contains(@wit, 'var1')]">
-                        <span class="var">VAR 2: </span><xsl:apply-templates select="current()/rdg[contains(@wit, 'var1')]"/>
-                    </xsl:if>
-                    <xsl:if test="current()/rdg[contains(@wit, 'var2')]">
-                        <span class="var">VAR 3: </span><xsl:apply-templates select="current()/rdg[contains(@wit, 'var2')]"/>
-                    </xsl:if>
-                </td></xsl:when>
-            
-            <xsl:otherwise>
-                <td class="{$wit}text">
-                    <xsl:apply-templates select="."/>
+        <!--<xsl:choose>
+            <xsl:when test="descendant::rdg/@wit[contains(., $wit)]">
+-->
+                <tr class="{$wit}Toggle">
+                    <xsl:for-each select="node()">
+                     
+                          
+                                <td class="{$wit}text">
+                                    <xsl:apply-templates select="." mode="row"/>
+                                </td>
+
+                         
+                    </xsl:for-each>
+                </tr>
+            <!--</xsl:when>
+
+        </xsl:choose>-->
+
+
+
+    </xsl:template>
+    
+    <xsl:template match="l" mode="row_df16">
+     
+        <tr class="df16Toggle">
+            <xsl:for-each select="node()">
+                
+                
+                <td class="df16text">
+                    <xsl:apply-templates select="." mode="row_df16"/>
                 </td>
                 
-            </xsl:otherwise>
-            </xsl:choose>
-        </xsl:for-each></tr>
+                
+            </xsl:for-each>
+        </tr>
+          
     </xsl:template>
-    <xsl:template match="app">
+ <xsl:template match="app" mode="row">
         <xsl:param name="wit" tunnel="yes"/>
+
         <xsl:apply-templates select="rdg[contains(@wit, $wit)]"/>
+
     </xsl:template>
+    <xsl:template match="app" mode="row_df16">
+       <xsl:choose>  
+           <xsl:when test="rdg[contains(@wit, 'var')]">
+               <xsl:if test="rdg[contains(@wit, 'var0')]">
+            <span class="var">VAR 1: </span>
+            <xsl:apply-templates
+                select="rdg[contains(@wit, 'var0')]"/>
+        </xsl:if>
+        <xsl:if test="rdg[contains(@wit, 'var1')]">
+            <span class="var">VAR 2: </span>
+            <xsl:apply-templates
+                select="rdg[contains(@wit, 'var1')]"/>
+        </xsl:if>
+        <xsl:if test="rdg[contains(@wit, 'var2')]">
+            <span class="var">VAR 3: </span>
+            <xsl:apply-templates
+                select="rdg[contains(@wit, 'var2')]"/>
+        </xsl:if></xsl:when>
+        <xsl:otherwise>
+            <xsl:apply-templates select="rdg[contains(@wit, 'df16')]"/>
+        </xsl:otherwise></xsl:choose>
+       
+    </xsl:template>
+    
 </xsl:stylesheet>
