@@ -347,24 +347,22 @@
     </xsl:template>
     <xsl:template match="l" mode="row">
         <xsl:param name="wit" tunnel="yes"/>
-        <!--<xsl:choose>
-            <xsl:when test="descendant::rdg/@wit[contains(., $wit)]">
--->
-                <tr class="{$wit}Toggle">
-                    <xsl:for-each select="node()">
-                     
-                          
-                                <td class="{$wit}text">
+        <tr class="{$wit}Toggle">
+        <xsl:for-each select="node()">
+        <xsl:choose>
+            <xsl:when test="current()/rdg[contains(@wit, $wit)]">
+                                <td class="{$wit}">
                                     <xsl:apply-templates select="." mode="row"/>
-                                </td>
-
-                         
-                    </xsl:for-each>
-                </tr>
-            <!--</xsl:when>
-
-        </xsl:choose>-->
-
+                                </td>                
+            </xsl:when>
+            <xsl:otherwise>
+                <td class="{$wit}text">
+                    <xsl:apply-templates select="."/>
+                </td>
+            </xsl:otherwise>
+        </xsl:choose>
+</xsl:for-each>
+        </tr>
 
 
     </xsl:template>
@@ -373,11 +371,20 @@
      
         <tr class="df16Toggle">
             <xsl:for-each select="node()">
+                <xsl:choose>
+                    <xsl:when test="current()/rdg[@wit[contains(., '#df16')]]">
+                        <td class="df16">
+                            <xsl:apply-templates select="." mode="row_df16"/>
+                        </td>                
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <td class="df16text">
+                            <xsl:apply-templates select="." mode="row_df16"/>
+                        </td>
+                    </xsl:otherwise>
+                </xsl:choose>
                 
                 
-                <td class="df16text">
-                    <xsl:apply-templates select="." mode="row_df16"/>
-                </td>
                 
                 
             </xsl:for-each>

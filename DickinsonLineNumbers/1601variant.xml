@@ -87,7 +87,10 @@
                <rdg wit="#df16">—</rdg>
                <rdg wit="#ce #poems2">,</rdg>
               </app></l>
-            <l n="2">I liked as well to see<app><rdg wit="#fh">—</rdg></app></l>
+            <l n="2">I liked as well to see<app>
+               <rdg wit="#df16 #ce #poems2"></rdg>
+               <rdg wit="#fh">—</rdg>
+            </app></l>
             <l n="3">As other <app>
                <rdg wit="#df16 #fh">Creatures,</rdg>
                <rdg wit="#ce #poems2">creatures</rdg></app> that have <app>
